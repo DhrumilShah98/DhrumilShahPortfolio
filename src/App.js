@@ -1,14 +1,14 @@
 import { Container, CssBaseline } from '@material-ui/core';
 import React from 'react';
 import { AboutMe } from './components/AboutMe/AboutMe';
-import { ContactMe } from './components/ContactMe/ContactMe';
+import { Education } from './components/Education/Education';
 
 function App() {
   return (
     <Container>
       <CssBaseline />
       <AboutMe />
-      <ContactMe />
+      <Education />
     </Container>
   );
 }
