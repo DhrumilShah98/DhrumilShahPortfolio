@@ -1,10 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles((theme) => ({
-    educationHeading: {
-        marginTop: 32,
-        fontWeight: "bold"
-    },
     cardMediaStyle: {
         maxHeight: 250,
         height: "80%"

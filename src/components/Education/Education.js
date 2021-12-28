@@ -8,11 +8,11 @@ export const Education = () => {
 
     return (
         <React.Fragment>
-            <Typography variant="h4" className={classes.educationHeading}>Educational Qualifications</Typography>
+            <Typography variant="h4" className={classes.boldText}>Educational Qualifications</Typography>
             <Divider className={classes.marginTopTwo} />
             <Grid container className={classes.marginTopSixteen} direction="row" justifyContent="center" alignItem="center" spacing={4}>
                 <Grid item xs={12} sm={12} md={6} lg={6}>
-                    <Card>
+                    <Card elevation={6}>
                         <CardHeader
                             avatar={<Avatar className={classes.avatarBgColor} aria-label="recipe">{portfolio.education.university1.shortform}</Avatar>}
                             title={<Typography variant="p" component="h2">{portfolio.education.university1.name}</Typography>}
@@ -30,7 +30,7 @@ export const Education = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={6}>
-                    <Card>
+                    <Card  elevation={6}>
                         <CardHeader
                             avatar={<Avatar style={{ backgroundColor: "#669CC0" }} aria-label="recipe">{portfolio.education.university2.shortform}</Avatar>}
                             title={<Typography variant="p" component="h2">{portfolio.education.university2.name}</Typography>}

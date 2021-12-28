@@ -8,9 +8,10 @@ export const useStyles = makeStyles((theme) => ({
     boldText: {
         fontWeight: "bold"
     },
-    avatarSize: {
+    avatarStyle: {
         width: 300,
-        height: 300
+        height: 300,
+        boxShadow: theme.shadows[6]
     },
     headingStyle: {
         display: 'flex',

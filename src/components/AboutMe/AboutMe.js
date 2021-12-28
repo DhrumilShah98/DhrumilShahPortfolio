@@ -17,7 +17,7 @@ export const AboutMe = () => {
         <React.Fragment>
             <Grid container className={classes.marginTopSixteen} direction="row" justifyContent="center" alignItem="center">
                 <Grid item xs="auto" sm="auto" md={4} lg={4}>
-                    <Avatar src={portfolio.dhrumil_about_image} alt={portfolio.fullName} className={classes.avatarSize} />
+                    <Avatar src={portfolio.dhrumil_about_image} alt={portfolio.fullName} className={classes.avatarStyle}/>
                 </Grid>
                 <Grid item xs="auto" sm="auto" md={8} lg={8}>
                     <div className={classes.headingStyle}>
