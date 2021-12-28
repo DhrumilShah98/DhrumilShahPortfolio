@@ -1,14 +1,15 @@
+import { Container, CssBaseline } from '@material-ui/core';
 import React from 'react';
-import './App.css';
 import { AboutMe } from './components/AboutMe/AboutMe';
 import { ContactMe } from './components/ContactMe/ContactMe';
 
 function App() {
   return (
-    <React.Fragment>
+    <Container>
+      <CssBaseline />
       <AboutMe />
       <ContactMe />
-    </React.Fragment>
+    </Container>
   );
 }
 
