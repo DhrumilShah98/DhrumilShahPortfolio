@@ -1,17 +1,12 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles((theme) => ({
+    aboutMeHeading: {
+        fontWeight: "bold",
+        marginTop: 16
+    },
     boldText: {
         fontWeight: "bold"
-    },
-    marginTopEight: {
-        marginTop: 8
-    },
-    marginLeftEight: {
-        marginLeft: 8
-    },
-    marginTopSixteen: {
-        marginTop: 16
     },
     avatarSize: {
         width: 300,
@@ -30,5 +25,17 @@ export const useStyles = makeStyles((theme) => ({
     iconStyle: {
         marginRight: 8,
         fontSize: 40
-    }
+    },
+    marginTopTwo: {
+        marginTop: 2
+    },
+    marginTopEight: {
+        marginTop: 8
+    },
+    marginTopSixteen: {
+        marginTop: 16
+    },
+    marginRightEight: {
+        marginRight: 8
+    },
 }));
