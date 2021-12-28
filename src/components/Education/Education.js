@@ -1,8 +1,8 @@
-import { Divider, Grid, Typography, Avatar, Button, Card, CardHeader, CardMedia, CardContent } from '@material-ui/core';
 import React from 'react';
-import { useStyles } from './styles';
+import { Divider, Grid, Typography, Avatar, Button, Card, CardHeader, CardMedia, CardContent } from '@material-ui/core';
 import dalhousie_university_image from '../../assets/education_images/dalhousie_university.jpg';
 import gujarat_technological_university_image from '../../assets/education_images/gujarat_technological_university.jpg';
+import { useStyles } from './styles';
 
 export const Education = () => {
     const classes = useStyles();
