@@ -17,7 +17,7 @@ export const AboutMe = () => {
         <React.Fragment>
             <Grid container className={classes.marginTopSixteen} direction="row" justifyContent="center" alignItem="center">
                 <Grid item xs="auto" sm="auto" md={4} lg={4}>
-                    <Avatar src={portfolio.dhrumil_about_image} alt={portfolio.fullName} className={classes.avatarStyle}/>
+                    <Avatar src={portfolio.dhrumil_about_image} alt={portfolio.fullName} className={classes.avatarStyle} />
                 </Grid>
                 <Grid item xs="auto" sm="auto" md={8} lg={8}>
                     <div className={classes.headingStyle}>
@@ -33,8 +33,8 @@ export const AboutMe = () => {
                         <TwitterIcon className={classes.iconStyle} onClick={e => window.location.href = portfolio.aboutus.twitterLink} />
                     </div>
                     <div className={classes.marginTopEight}>
-                        <Button color="primary" variant="outlined"  className={classes.marginRightEight} href={`mailto:${portfolio.email}`} size="small">Contact Me</Button>
-                        <Button color="primary" variant="outlined" size="small">Download CV</Button>
+                        <Button color="primary" variant="contained" className={classes.marginRightEight} href={`mailto:${portfolio.email}`} size="small">Contact Me</Button>
+                        <Button color="primary" variant="contained" size="small">Download CV</Button>
                     </div>
                 </Grid>
             </Grid>

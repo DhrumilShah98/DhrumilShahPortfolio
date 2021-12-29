@@ -49,7 +49,15 @@ export const portfolio = {
             course: "Bachelors in Information and Communication Technology",
             cgpa: "9.06/10",
             cpi: "9.14/10",
-            image: gujarat_technological_university_image
+            image: gujarat_technological_university_image,
+            imageAlt: "Gujarat Technological University Logo and Text"
         },
+    },
+    skills: {
+        technologies: ["Java", "Kotlin", "Flutter", "Dart", "Python", "C", "C++", "Html5", "CSS3", "Bootstrap4", "Material UI", "JavaScript", "React.js", "Express.js", "Embedded JavaScript (EJS)", "Node.js", "JSON"],
+        databases: ["Relational Database (RDB)", "Relational Database Management System (RDBMS)", "SQL", "SQLite", "MySQL", "Non-Relational Database (Non-RDB)", "Non-Relational Database Management System (Non-RDBMS)", "NoSQL", "Firebase Realtime Database", "Firebase Database", "MongoDB", "AWS DynamoDB", "Neo4J"],
+        cloudTechnologies: ["Google Cloud Platform (GCP)", "Amazon Web Services (AWS)", "Firebase Console", "Heroku", "Docker Cloud", "Cloudinary"],
+        industryKnowledge: ["Algorithms", "Data Structures", "Object Oriented Programming (OOP)", "Agile Methodology", "Scrum", "JIRA", "Design Patterns", "Code Refactoring", "Software Development Life Cycle (SDLC)", "SOLID Principles", "Test Driven Development (TDD)", "CI/CD"],
+        versionControl: ["Git", "GitHub", "GitLab", "BitBucket"]
     }
 };

@@ -1,11 +1,14 @@
 import React from "react";
-import { Typography, Divider, List, ListItem, ListItemText } from "@material-ui/core";
+import { Typography, Divider, List, ListItem, ListItemText } from '@material-ui/core';
 import { portfolio } from '../../portfolio';
 import { useStyles } from './styles';
 
 const generateListItem = (key, value) => {
-    return <ListItem key={key}>
-        <ListItemText primary={<Typography variant="p"><span role="img" aria-label="Lightning">⚡</span > {value}</Typography>} /></ListItem>
+    return (
+        <ListItem key={key}>
+            <ListItemText primary={<Typography variant="p"><span role="img" aria-label="Lightning">⚡</span > {value}</Typography>} />
+        </ListItem>
+    );
 };
 
 export const WorkExperience = () => {

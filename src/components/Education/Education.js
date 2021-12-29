@@ -25,12 +25,12 @@ export const Education = () => {
                         <CardContent>
                             <Typography variant="p" display="block"><span className={classes.boldText}>Course:</span> {portfolio.education.university1.course}</Typography>
                             <Typography variant="p" display="block"><span className={classes.boldText}>CGPA:</span> {portfolio.education.university1.cgpa}</Typography>
-                            <Button color="primary" variant="outlined" size="small" className={classes.marginTopEight}>View Transcript</Button>
+                            <Button color="primary" variant="contained" size="small" className={classes.marginTopEight}>View Transcript</Button>
                         </CardContent>
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={6}>
-                    <Card  elevation={6}>
+                    <Card elevation={6}>
                         <CardHeader
                             avatar={<Avatar style={{ backgroundColor: "#669CC0" }} aria-label="recipe">{portfolio.education.university2.shortform}</Avatar>}
                             title={<Typography variant="p" component="h2">{portfolio.education.university2.name}</Typography>}
@@ -44,8 +44,8 @@ export const Education = () => {
                             <Typography variant="p" display="block"><span className={classes.boldText}>Course:</span> {portfolio.education.university2.course}</Typography>
                             <Typography variant="p" display="block"><span className={classes.boldText}>CGPA:</span> {portfolio.education.university2.cgpa} | <span style={{ fontWeight: "bold" }}>CPI:</span> {portfolio.education.university2.cpi}</Typography>
                             <div className={classes.marginTopEight}>
-                                <Button color="primary" variant="outlined" size="small" className={classes.marginRightEight}>View Degree Certificate</Button>
-                                <Button color="primary" variant="outlined" size="small">View Transcript</Button>
+                                <Button color="primary" variant="contained" size="small" className={classes.marginRightEight}>View Degree Certificate</Button>
+                                <Button color="primary" variant="contained" size="small">View Transcript</Button>
                             </div>
                         </CardContent>
                     </Card>
@@ -53,4 +53,4 @@ export const Education = () => {
             </Grid>
         </React.Fragment>
     );
-}
+};
