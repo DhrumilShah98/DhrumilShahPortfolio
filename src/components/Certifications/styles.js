@@ -1,18 +1,15 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles((theme) => ({
-    skillsHeading: {
+    certificationsHeading: {
         marginTop: 32,
         fontWeight: "bold"
-    },
-    skillsStyle: {
-        boxShadow: theme.shadows[6]
     },
     boldText: {
         fontWeight: "bold"
     },
     marginTopTwo: {
-        marginTop: 2,
+        marginTop: 2
     },
     marginTopEight: {
         marginTop: 8,
@@ -20,7 +17,7 @@ export const useStyles = makeStyles((theme) => ({
     marginTopSixteen: {
         marginTop: 16
     },
-    marginLeftEight: {
-        marginLeft: 8
-    },
+    marginRightEight: {
+        marginRight: 8
+    }
 }));

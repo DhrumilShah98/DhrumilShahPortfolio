@@ -5,13 +5,10 @@ export const useStyles = makeStyles((theme) => ({
         fontWeight: "bold",
         marginTop: 16
     },
-    boldText: {
-        fontWeight: "bold"
-    },
     avatarStyle: {
         width: 300,
         height: 300,
-        boxShadow: theme.shadows[6]
+        boxShadow: theme.shadows[12]
     },
     headingStyle: {
         display: 'flex',
@@ -26,6 +23,9 @@ export const useStyles = makeStyles((theme) => ({
     iconStyle: {
         marginRight: 8,
         fontSize: 40
+    },
+    boldText: {
+        fontWeight: "bold"
     },
     marginTopTwo: {
         marginTop: 2

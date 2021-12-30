@@ -9,14 +9,14 @@ export const Skills = () => {
     const getSkillsStack = (skillType, skills) => {
         return (
             <React.Fragment>
-                <Typography variant="h6" display="block" style={{ marginTop: 16 }}>
+                <Typography className={classes.marginTopSixteen} variant="h6" display="block">
                     <span role="img" aria-label="Developer">🤹</span > <span className={classes.boldText}>{skillType}</span>
                 </Typography>
                 <Grid container direction="row" justifyContent="start" alignItem="center" spacing={1}>
                     {skills.map((value) => {
                         return (
                             <Grid item>
-                                <Chip label={value} color="primary" size="small" />
+                                <Chip className={classes.skillsStyle} label={value} color="primary" size="small" />
                             </Grid>
                         );
                     })}
@@ -27,7 +27,7 @@ export const Skills = () => {
 
     return (
         <React.Fragment>
-            <Typography variant="h4" className={classes.skillsHeading}>Skills</Typography>
+            <Typography className={classes.skillsHeading} variant="h4">Skills</Typography>
             <Divider className={classes.marginTopTwo} />
             <div className={classes.marginTopSixteen}>
                 {getSkillsStack("Technologies", portfolio.skills.technologies)}
