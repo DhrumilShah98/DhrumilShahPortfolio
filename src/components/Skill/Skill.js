@@ -3,7 +3,7 @@ import { Typography, Divider, Chip, Grid } from '@material-ui/core';
 import { portfolio } from '../../portfolio';
 import { useStyles } from './styles';
 
-export const Skills = () => {
+export const Skill = () => {
     const classes = useStyles();
 
     const getSkillsStack = (skillType, skills) => {

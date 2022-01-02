@@ -1,24 +1,25 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles((theme) => ({
+    toolbar: theme.mixins.toolbar,
     aboutMeHeading: {
         fontWeight: "bold",
         marginTop: 16
     },
     avatarStyle: {
-        width: 300,
-        height: 300,
+        width: 350,
+        height: 350,
         boxShadow: theme.shadows[12]
     },
     headingStyle: {
-        display: 'flex',
-        alignItems: 'center',
-        flexWrap: 'wrap',
+        display: "flex",
+        alignItems: "center",
+        flexWrap: "wrap",
         marginTop: 16
     },
     paragraphStyle: {
         fontSize: 22,
-        marginTop: 16
+        marginTop: 4
     },
     iconStyle: {
         marginRight: 8,

@@ -1,26 +1,25 @@
 import React from 'react';
 import Lottie from 'react-lottie';
-import { Avatar, Grid, Typography, Button } from '@material-ui/core';
+import { Typography, Divider, Grid, Button } from '@material-ui/core';
 import { LinkedIn, GitHub, Instagram, Facebook, Twitter, Email } from '@material-ui/icons';
-import * as handWaveAnimationData from '../../assets/lottie_animations/hand_wave.json';
+import * as contactMeData from '../../assets/lottie_animations/contact_me.json';
 import { portfolio } from '../../portfolio';
 import { useStyles } from './styles';
 
-export const AboutMe = () => {
+export const ContactMe = () => {
     const classes = useStyles();
+
     return (
         <React.Fragment>
-            <div className={classes.toolbar}></div>
+            <Typography className={classes.contactMeHeading} variant="h4">Contact Me</Typography>
+            <Divider className={classes.marginTopTwo} />
             <Grid className={classes.marginTopSixteen} container direction="row" justifyContent="center" alignItem="center">
-                <Grid item xs="auto" sm="auto" md={4} lg={4}>
-                    <Avatar className={classes.avatarStyle} src={portfolio.aboutus.profileImage} alt={portfolio.aboutus.fullName}/>
-                </Grid>
                 <Grid item xs="auto" sm="auto" md={8} lg={8}>
                     <div className={classes.headingStyle}>
-                        <Typography className={classes.boldText} variant="h3" display="block">{portfolio.aboutus.heading}</Typography>
-                        <Lottie style={{ marginLeft: 0, marginRight: 0 }} options={{ loop: true, autoplay: true, animationData: handWaveAnimationData, rendererSettings: { preserveAspectRatio: 'xMidYMid slice' } }} width={70} height={70} />
+                        <Typography className={classes.boldText} variant="h5" gutterBottom>{portfolio.contactMe.line}</Typography>
                     </div>
-                    <Typography className={classes.paragraphStyle} paragraph>{portfolio.aboutus.paragraph}</Typography>
+                    <Typography className={classes.paragraphStyle} variant="body1" gutterBottom>{portfolio.aboutus.email}</Typography>
+                    <Typography className={classes.paragraphStyle} variant="body1" gutterBottom>{portfolio.contactMe.number}</Typography>
                     <div className={classes.marginTopEight}>
                         <LinkedIn className={classes.iconStyle} onClick={() => window.location.href = portfolio.aboutus.linkedInLink} />
                         <GitHub className={classes.iconStyle} onClick={() => window.location.href = portfolio.aboutus.githubLink} />
@@ -29,10 +28,10 @@ export const AboutMe = () => {
                         <Twitter className={classes.iconStyle} onClick={() => window.location.href = portfolio.aboutus.twitterLink} />
                         <Email className={classes.iconStyle} onClick={() => window.location.href = `mailto:${portfolio.aboutus.email}`} />
                     </div>
-                    <div className={classes.marginTopEight}>
-                        <Button className={classes.marginRightEight} color="primary" variant="contained" size="small" href={`mailto:${portfolio.aboutus.email}`}>Email Me</Button>
-                        <Button color="primary" variant="contained" size="small" href={portfolio.aboutus.resumeLink}>View Resume</Button>
-                    </div>
+                    <Button className={classes.marginTopEight} color="primary" variant="contained" size="small" href={`mailto:${portfolio.aboutus.email}`}>Email Me</Button>
+                </Grid>
+                <Grid item xs="auto" sm="auto" md={4} lg={4}>
+                    <Lottie style={{ margin: 0 }} options={{ loop: true, autoplay: true, animationData: contactMeData, rendererSettings: { preserveAspectRatio: 'xMidYMid slice' } }} width={350} height={350} />
                 </Grid>
             </Grid>
         </React.Fragment>

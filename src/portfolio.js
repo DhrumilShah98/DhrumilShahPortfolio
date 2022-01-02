@@ -6,19 +6,26 @@ export const portfolio = {
     aboutus: {
         fullName: "Dhrumil Shah",
         email: "shah.dhrumil1998@gmail.com",
-        dhrumil_about_image: dhrumil_about_image,
+        profileImage: dhrumil_about_image,
         linkedInLink: "https://www.linkedin.com/in/dhrumilshah98/",
         githubLink: "https://github.com/DhrumilShah98",
         instagramLink: "https://www.instagram.com/dhrumil_shah_98/",
         facebookLink: "https://www.facebook.com/dhrumil.shah1998/",
         twitterLink: "https://twitter.com/dhrumil_shah_98",
         heading: "Hi all, I'm Dhrumil",
-        paragraph: "I am a computer science student who loves analyzing, designing, constructing, and testing end-user applications by applying software design and development principles. My area of interest includes Full-stack web development, Mobile development and Cloud Technologies.",
+        paragraph: "I am a computer science student who loves to develop end-user applications by applying software design and development principles. My area of interest includes Full-stack web development, Mobile development and Cloud Technologies.",
         resumeLink: "https://drive.google.com/file/d/1HO23rHchtH22TMK1QvM-76ouEeQJMiOs/view?usp=sharing"
     },
     professionalExp: {
         company1: "Quixote Automotive Technologies Pvt. Ltd. | Ahmedabad, IN",
         position1: "Android Developer | Jul 2020 - Feb 2021",
+        project1Work: {
+            line: "Worked on developing an Android application",
+            name1: "Scouto App",
+            name1Link: "https://play.google.com/store/apps/details?id=com.quixote.scouto",
+            name2: "Scouto Website",
+            name2Link: "https://scouto.in/",
+        },
         position1Desp: [
             "Devised workflows, architecture, and user interfaces for the application using tools like Lucidchart, draw.io, and Figma after identifying key features from the users.",
             "Increased the application development speed by 35% adhering to Google Material Design guidelines and Model-View-View-Model (MVVM) architecture pattern.",
@@ -27,6 +34,13 @@ export const portfolio = {
             "Optimized and reduced the service layer's code by 30%, resulting in easier code maintenance and fewer bugs in production."
         ],
         position2: "Android Intern | Aug 2019 - Feb 2020",
+        project2Work: {
+            line: "Worked on developing Android applications ",
+            name1: "Scouto Vendor",
+            name1Link: "https://play.google.com/store/apps/details?id=com.quixote.scoutosellerbpcl",
+            name2: "WheelIntel",
+            name2Link: "https://play.google.com/store/apps/details?id=com.quixote.scoutosellerbpcl",
+        },
         position2Desp: [
             "Gained practical experience with Java, Kotlin, Android SDK, Gradle, Third-party Libraries, RESTful APIs, VCS, SonarLint, Firebase, GCP and Google Play Console in less than 2 months.",
             "Managed project development process for both the applications from requirement specifications to deployment of the application and attained 80% positive feedback.",
@@ -43,7 +57,7 @@ export const portfolio = {
             cpi: null,
             image: dalhousie_university_image,
             imageAlt: "Dalhousie University Logo and Text",
-            transcriptLink: "https://drive.google.com/file/d/1bvpTU-i8KtaqWe4NmccAqzf-1aECzVtp/view?usp=sharing",
+            transcriptLink: "https://drive.google.com/file/d/185ebLStej0-rUFGZ0LT5pb9d3y6RKW0c/view?usp=sharing",
             degreeCertiLink: null
         },
         {
@@ -66,6 +80,88 @@ export const portfolio = {
         industryKnowledge: ["Algorithms", "Data Structures", "Object Oriented Programming (OOP)", "Agile Methodology", "Scrum", "JIRA", "Design Patterns", "Code Refactoring", "Software Development Life Cycle (SDLC)", "SOLID Principles", "Test Driven Development (TDD)", "CI/CD"],
         versionControl: ["Git", "GitHub", "GitLab", "BitBucket"]
     },
+    projects: [
+        {
+            projectName: "Safe Deposit",
+            projectTechnologies: ["React.js", "Material UI", "Express.js", "Node.js", "NPM", "AWS", "GCP", "Git", "GitHub", "Docker"],
+            projectAWSTechnologies: ["Amazon DynamoDB", "Amazon S3", "Amazon Lambda", "Amazon Lex"],
+            projectGCPTechnologies: ["Google Container Registry", "Google Cloud Run", "GCP Pub/Sub", "Google Firebase Firestore", "Google Data Studio"],
+            projectDuration: "Sep 2021 - Dec 2021",
+            projectAbout: "Safe Deposit is a serverless application built using a multi-cloud deployment architecture, and Backend-as-a-Service (BaaS). It provides a customization feature and, additional services for authorized users, and limited services to guests. The application provides online virtual assistance, which can quickly answer the queries of users, and in addition, it also provides a message-passing functionality between the authorized users.",
+            projectGitHubLink: "https://github.com/DhrumilShah98/Dalhousie_University_CSCI5410_SDP#final-group-project",
+            projectDeploymentLink: null
+        },
+        {
+            projectName: "Travel Memories",
+            projectTechnologies: ["React.js", "Material UI", "Express.js", "Node.js", "NPM", "AWS", "GCP", "Git", "GitHub", "Docker"],
+            projectAWSTechnologies: ["Amazon DynamoDB", "Amazon S3", "Amazon Cognito", "Amazon Lambda"],
+            projectGCPTechnologies: ["GCP App Engine", "API Gateway"],
+            projectDuration: "Sep 2021 - Dec 2021",
+            projectAbout: "TravelMemories is a web application built using Software as a Service (SaaS) delivery model that helps its users to plan trips for their leisure time or business easily. The application deals with multiple travel destinations and manages the reviews of each of the destinations with the help of comments and ratings. User Authentication, Posts Management, Security, and Performance are the key features of the web application.",
+            projectGitHubLink: "https://github.com/DhrumilShah98/Dalhousie_University_CSCI5409_ACC#final-group-project",
+            projectDeploymentLink: "https://my-travel-memories.de.r.appspot.com/"
+        },
+        {
+            projectName: "Blood Book",
+            projectTechnologies: ["Java", "JUnit", "Maven", "MySQL", "JIRA", "Git", "GitLab", "IntelliJ", "Heroku", "Data Structures", "Algorithms"],
+            projectAWSTechnologies: null,
+            projectGCPTechnologies: null,
+            projectDuration: "May 2021 - Aug 2021",
+            projectAbout: "A blood bank management system implemented using industrial software development standards such as Agile Methodology, SOLID principles, Design Patterns, Object-Oriented Programming, and Test Driven Development (TDD). Maintained a high-quality codebase following Seperation of Concerns, High Cohesion, Low Coupling, and clean code practices. Automated the application's deployment using GitLab's CI/CD pipeline to increase the team's performance and quality.",
+            projectGitHubLink: "https://github.com/DhrumilShah98/Dalhousie_University_CSCI5308_ASDC#final-group-project",
+            projectDeploymentLink: null
+        },
+        {
+            projectName: "EnviClean",
+            projectTechnologies: ["React.js", "Material UI", "Express.js", "Node.js", "NPM", "Git", "GitHub", "Postman", "Figma", "Heroku"],
+            projectAWSTechnologies: null,
+            projectGCPTechnologies: ["GCP SQL"],
+            projectDuration: "May 2021 - Aug 2021",
+            projectAbout: "Engineered a garbage collection management system using UI/UX principles, Usability Principles, Information Architecture, and Usability Mapping by identifying key features from users. Developed high-quality, scalable, and reusable components using React JS and Material UI for enhanced user experience. Integrated front-end with back-end using Node, Express, GCP SQL, and MVC architecture to provide RESTful APIs. Automated the application's deployment using Heroku's CI/CD pipeline to increase the team's performance and quality.",
+            projectGitHubLink: "https://github.com/DhrumilShah98/Group6_S21_EnviClean",
+            projectDeploymentLink: "https://enviclean.herokuapp.com/"
+        },
+        {
+            projectName: "Simple RDB and RDBMS",
+            projectTechnologies: ["Java", "JUnit", "Maven", "Git", "GitLab", "IntelliJ", "Data Structures", "Algorithms"],
+            projectAWSTechnologies: null,
+            projectGCPTechnologies: null,
+            projectDuration: "May 2021 - Aug 2021",
+            projectAbout: "A Simple Custom Relational Database (RDB) and its Management System (RDBMS) provides features like Multi-factor authentication, Query Parser (For DDL, DQL, DML and TCL Queries), Query Processor (For DDL, DQL, DML and TCL Queries), Data Dictionary Generator/View, Meta Data Generator/View, SQL Dump Generator/View (SQL Dump Export), SQL Dump Import, ERD Generator/View, and Log Generator/View (General Logs, Query Logs, Event Logs).",
+            projectGitHubLink: "https://github.com/DhrumilShah98/Dalhousie_University_CSCI5408_DMWA#final-group-project",
+            projectDeploymentLink: null
+        },
+        {
+            projectName: "Covid Tracker",
+            projectTechnologies: ["Java", "JUnit", "Maven", "Git", "GitLab", "IntelliJ", "Data Structures", "Algorithms"],
+            projectAWSTechnologies: null,
+            projectGCPTechnologies: null,
+            projectDuration: "Jan 2021 - Apr 2021",
+            projectAbout: "Covid Tracker helps us manage the COVID-19 pandemic using contact tracing. When one person is diagnosed with COVID-19, the ability to notify other individuals who have been in contact with the person who is COVID-positive allows us to limit the spread of the disease faster. At the same time, the ability to use contact information to detect the frequency of large gatherings also helps us understand the community's compliance with physical distancing advisories. Covid Tracker is a scaled-down functionality of the Canadian federal government's application for contact tracing.",
+            projectGitHubLink: "https://github.com/DhrumilShah98/Dalhousie_University_CSCI3901_SDC#final-project-covid-tracker",
+            projectDeploymentLink: null
+        },
+        {
+            projectName: "Handyman",
+            projectTechnologies: ["HTML5", "CSS3", "BootStrap4", "JavaScript", "Embedded JavaScript (EJS)", "Express.js", "Node.js", "MongoDB", "Java", "Android"],
+            projectAWSTechnologies: null,
+            projectGCPTechnologies: null,
+            projectDuration: "Jun 2018 - May 2019",
+            projectAbout: "A platform for small-scale vendors, housewives and skilled people who are not able to showcase their skills due to reasons like less market knowledge, less awareness of how to target the customers, and due to large-scale companies who have acquired the market. Handyman helps such skilled people expand their business under their brand name, and customers can afford their services at a reasonable cost.",
+            projectGitHubLink: "https://github.com/DhrumilShah98/Handyman",
+            projectDeploymentLink: null
+        },
+        {
+            projectName: "Hostel Admission System",
+            projectTechnologies: ["HTML5", "CSS3", "BootStrap4", "JavaScript", "PHP", "MySQL"],
+            projectAWSTechnologies: null,
+            projectGCPTechnologies: null,
+            projectDuration: "Dec 2017 - Mar 2018",
+            projectAbout: "This project aims to solve the hostel admission problem faced by many students. A system was developed that solves the hostel allocation to the student by maintaining transparency in the admission procedure by considering four parameters, namely, the distance of student's hometown from the institute, merit, gender, and reservations.",
+            projectGitHubLink: "https://github.com/DhrumilShah98/OnlineMeritBasedHostelAdmission",
+            projectDeploymentLink: null
+        },
+    ],
     certifications: [
         {
             name: "AWS Educate Introduction to Cloud 101",
@@ -160,14 +256,14 @@ export const portfolio = {
         },
         {
             name: "Smart Gujarat For New India Hackathon Final Round",
-            issuer: "Student Start-up and Innovation Policy (SSIP)",
+            issuer: "Student Start-up and Innovation Policy",
             issueDate: "Mar 25, 2018",
             credentialId: "1224",
             credentialLink: "https://drive.google.com/file/d/1KdjkCfn-yTTWv6SxTYzhdjY68r-URTA8/view?usp=sharing"
         },
         {
             name: "Smart Gujarat For New India Hackathon Regional Round",
-            issuer: "Student Start-up and Innovation Policy (SSIP)",
+            issuer: "Student Start-up and Innovation Policy",
             issueDate: "Mar 11, 2018",
             credentialId: "1224",
             credentialLink: "https://drive.google.com/file/d/1m8Z8YvlcpPd7waJL0iTu0_xbI66bP1Vh/view?usp=sharing"
@@ -186,5 +282,9 @@ export const portfolio = {
             credentialId: "GNA03Fe16478313",
             credentialLink: "https://drive.google.com/file/d/1rLKr2K_0DP2hLBIutGhElOUxhay9ijFt/view?usp=sharing"
         },
-    ]
+    ],
+    contactMe: {
+        line: "Discuss a project or just want to say Hi? I am open for a conversation.",
+        number: "+1 (902) 989 7865"
+    }
 };

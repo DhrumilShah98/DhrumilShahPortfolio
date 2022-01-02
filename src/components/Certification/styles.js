@@ -1,19 +1,20 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles(() => ({
-    workExperienceHeading: {
+    certificateHeading: {
         marginTop: 32,
         fontWeight: "bold"
     },
-    cardMediaStyle: {
-        maxHeight: 250,
-        height: "80%"
+    certificateCard: {
+        display: "flex",
+        flexDirection: "column",
+        minHeight: 200
     },
     boldText: {
         fontWeight: "bold"
     },
     marginTopTwo: {
-        marginTop: 2,
+        marginTop: 2
     },
     marginTopEight: {
         marginTop: 8,
@@ -21,7 +22,7 @@ export const useStyles = makeStyles(() => ({
     marginTopSixteen: {
         marginTop: 16
     },
-    marginLeftEight: {
-        marginLeft: 8
-    },
+    marginRightEight: {
+        marginRight: 8
+    }
 }));
