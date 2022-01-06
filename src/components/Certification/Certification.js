@@ -20,7 +20,7 @@ export const Certification = () => {
                                     <Typography variant="body1" component="div"><span className={classes.boldText}>Issue Date:</span> {certi.issueDate}</Typography>
                                     <Typography variant="body1" component="div"><span className={classes.boldText}>Issuer:</span> {certi.issuer}</Typography>
                                     <div className={classes.marginTopEight}>
-                                        <Button className={classes.marginRightEight} color="primary" variant="contained" size="small" href={certi.credentialLink}>Verify</Button>
+                                        <Button className={classes.marginRightEight} color="primary" variant="contained" size="small" href={certi.credentialLink} target="_blank">Verify</Button>
                                     </div>
                                 </CardContent>
                             </Card>

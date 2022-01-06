@@ -21,11 +21,11 @@ export const ContactMe = () => {
                     <Typography className={classes.paragraphStyle} variant="body1" gutterBottom>{portfolio.aboutus.email}</Typography>
                     <Typography className={classes.paragraphStyle} variant="body1" gutterBottom>{portfolio.contactMe.number}</Typography>
                     <div className={classes.marginTopEight}>
-                        <LinkedIn className={classes.iconStyle} onClick={() => window.location.href = portfolio.aboutus.linkedInLink} />
-                        <GitHub className={classes.iconStyle} onClick={() => window.location.href = portfolio.aboutus.githubLink} />
-                        <Instagram className={classes.iconStyle} onClick={() => window.location.href = portfolio.aboutus.instagramLink} />
-                        <Facebook className={classes.iconStyle} onClick={() => window.location.href = portfolio.aboutus.facebookLink} />
-                        <Twitter className={classes.iconStyle} onClick={() => window.location.href = portfolio.aboutus.twitterLink} />
+                    <LinkedIn className={classes.iconStyle} onClick={() => window.open(portfolio.aboutus.linkedInLink, "_blank")} />
+                        <GitHub className={classes.iconStyle} onClick={() => window.open(portfolio.aboutus.githubLink, "_blank")} />
+                        <Instagram className={classes.iconStyle} onClick={() => window.open(portfolio.aboutus.instagramLink, "_blank")} />
+                        <Facebook className={classes.iconStyle} onClick={() => window.open(portfolio.aboutus.facebookLink, "_blank")} />
+                        <Twitter className={classes.iconStyle} onClick={() => window.open(portfolio.aboutus.twitterLink, "_blank")} />
                         <Email className={classes.iconStyle} onClick={() => window.location.href = `mailto:${portfolio.aboutus.email}`} />
                     </div>
                     <Button className={classes.marginTopEight} color="primary" variant="contained" size="small" href={`mailto:${portfolio.aboutus.email}`}>Email Me</Button>

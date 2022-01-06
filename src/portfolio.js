@@ -29,8 +29,9 @@ export const portfolio = {
         position1Desp: [
             "Devised workflows, architecture, and user interfaces for the application using tools like Lucidchart, draw.io, and Figma after identifying key features from the users.",
             "Increased the application development speed by 35% adhering to Google Material Design guidelines and Model-View-View-Model (MVVM) architecture pattern.",
-            "Increased the bug detection efficiency and accuracy by 70% by designing comprehensive test cases and performing exhaustive testing of the application.",
+            "Increased bug detection efficiency and accuracy by 70% by designing comprehensive test cases and performing exhaustive testing of the application.",
             "Drove the application deployment using the Release on Demand methodology in an incremental fashion adhering to the security considerations agreed upon.",
+            "Enhanced the storage and performance efficiency by 40% after major refactors on assets and core functionalities.",
             "Optimized and reduced the service layer's code by 30%, resulting in easier code maintenance and fewer bugs in production."
         ],
         position2: "Android Intern | Aug 2019 - Feb 2020",
@@ -44,7 +45,7 @@ export const portfolio = {
         position2Desp: [
             "Gained practical experience with Java, Kotlin, Android SDK, Gradle, Third-party Libraries, RESTful APIs, VCS, SonarLint, Firebase, GCP and Google Play Console in less than 2 months.",
             "Managed project development process for both the applications from requirement specifications to deployment of the application and attained 80% positive feedback.",
-            "Learned and Integrated Shopify Storefront APIs and Shopify Android Buy SDK in WheelIntel application."
+            "Learned Shopify Storefront APIs and Shopify Android Buy SDK and integrated them into the application."
         ]
     },
     education: [

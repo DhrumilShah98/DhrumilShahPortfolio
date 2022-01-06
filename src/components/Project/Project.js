@@ -53,11 +53,11 @@ export const Project = () => {
                                 </CardContent>
                                 <CardActions disableSpacing>
                                     <IconButton aria-label="Github Link">
-                                        <GitHub onClick={() => window.location.href = project.projectGitHubLink} />
+                                        <GitHub onClick={() => window.open(project.projectGitHubLink, "_blank")} />
                                     </IconButton>
                                     {(project.projectDeploymentLink) ?
                                         <IconButton aria-label="Deployment Link">
-                                            <Link onClick={() => window.location.href = project.projectDeploymentLink} />
+                                            <Link onClick={() => window.open(project.projectDeploymentLink, "_blank")} />
                                         </IconButton> : null}
                                     <ExpandMoreFunc
                                         expand={expanded}

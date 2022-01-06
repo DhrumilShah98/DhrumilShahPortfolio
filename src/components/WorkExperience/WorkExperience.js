@@ -25,7 +25,7 @@ export const WorkExperience = () => {
                 <span role="img" aria-label="Developer">👨‍💻</span> <span className={classes.boldText}>{portfolio.professionalExp.position1}</span>
             </Typography>
             <Typography className={classes.marginLeftEight} variant="body1">
-                {portfolio.professionalExp.project1Work.line}&nbsp;-&nbsp;<a href={portfolio.professionalExp.project1Work.name1Link}>{portfolio.professionalExp.project1Work.name1}</a>&nbsp;|&nbsp;<a href={portfolio.professionalExp.project1Work.name2Link}>{portfolio.professionalExp.project1Work.name2}</a>
+                {portfolio.professionalExp.project1Work.line}&nbsp;-&nbsp;<a href={portfolio.professionalExp.project1Work.name1Link} target="_blank" rel="noreferrer">{portfolio.professionalExp.project1Work.name1}</a>&nbsp;|&nbsp;<a href={portfolio.professionalExp.project1Work.name2Link} target="_blank" rel="noreferrer">{portfolio.professionalExp.project1Work.name2}</a>
             </Typography>
             <List className={classes.marginLeftEight} dense={true}>
                 {portfolio.professionalExp.position1Desp.map((value, index) => { return generateListItem(index, value); })}
@@ -34,7 +34,7 @@ export const WorkExperience = () => {
                 <span role="img" aria-label="Developer">👨‍💻</span> <span className={classes.boldText}>{portfolio.professionalExp.position2}</span>
             </Typography>
             <Typography className={classes.marginLeftEight} variant="body1">
-                {portfolio.professionalExp.project2Work.line}&nbsp;-&nbsp;<a href={portfolio.professionalExp.project2Work.name1Link}>{portfolio.professionalExp.project2Work.name1}</a>&nbsp;|&nbsp;<a href={portfolio.professionalExp.project2Work.name2Link}>{portfolio.professionalExp.project2Work.name2}</a>
+                {portfolio.professionalExp.project2Work.line}&nbsp;-&nbsp;<a href={portfolio.professionalExp.project2Work.name1Link} target="_blank" rel="noreferrer">{portfolio.professionalExp.project2Work.name1}</a>&nbsp;|&nbsp;<a href={portfolio.professionalExp.project2Work.name2Link} target="_blank" rel="noreferrer">{portfolio.professionalExp.project2Work.name2}</a>
             </Typography>
             <List className={classes.marginLeftEight} dense={true}>
                 {portfolio.professionalExp.position2Desp.map((value, index) => { return generateListItem(index, value); })}
