@@ -1,12 +1,16 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles((theme) => ({
-    skillHeading: {
+    blogHeading: {
         marginTop: 32,
         fontWeight: "bold"
     },
     skillStyle: {
         boxShadow: theme.shadows[6]
+    },
+    avatarStyle: {
+        width: 48,
+        height: 48
     },
     boldText: {
         fontWeight: "bold"

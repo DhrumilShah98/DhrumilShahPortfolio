@@ -16,7 +16,7 @@ export const Skill = () => {
                     {skills.map((value) => {
                         return (
                             <Grid item>
-                                <Chip className={classes.skillsStyle} label={value} color="primary" size="small" />
+                                <Chip className={classes.skillStyle} label={value} color="primary" size="small" />
                             </Grid>
                         );
                     })}
@@ -27,7 +27,7 @@ export const Skill = () => {
 
     return (
         <React.Fragment>
-            <Typography className={classes.skillsHeading} variant="h4">Skills</Typography>
+            <Typography className={classes.skillHeading} variant="h4">Skills</Typography>
             <Divider className={classes.marginTopTwo} />
             <div className={classes.marginTopSixteen}>
                 {getSkillsStack("Technologies", portfolio.skills.technologies)}

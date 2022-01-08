@@ -1,6 +1,7 @@
 import dhrumil_about_image from './assets/dhrumil_images/dhrumil_image_1.jpeg';
 import dalhousie_university_image from './assets/education_images/dalhousie_university.jpg';
 import gujarat_technological_university_image from './assets/education_images/gujarat_technological_university.jpg';
+import medium_logo from './assets/logo_images/medium_logo.jpg';
 
 export const portfolio = {
     aboutus: {
@@ -162,6 +163,16 @@ export const portfolio = {
             projectGitHubLink: "https://github.com/DhrumilShah98/OnlineMeritBasedHostelAdmission",
             projectDeploymentLink: null
         },
+    ],
+    blogs: [
+        {
+            name: "AppBar in Flutter",
+            logo: medium_logo,
+            logoAlt: "Medium Logo",
+            link: "https://dhrumilshah98.medium.com/appbar-in-flutter-ec628cc65f14",
+            description: "The app bar is an important design element which stays generally on top of each screen below the status bar. It provides better user interaction and experience by allowing screen navigation and views switching.",
+            dateOfPublish: "Dec 30, 2020"
+        }
     ],
     certifications: [
         {
