@@ -18,17 +18,17 @@ export const ContactMe = () => {
                     <div className={classes.headingStyle}>
                         <Typography className={classes.boldText} variant="h5" gutterBottom>{portfolio.contactMe.line}</Typography>
                     </div>
-                    <Typography className={classes.paragraphStyle} variant="body1" gutterBottom>{portfolio.aboutus.email}</Typography>
+                    <Typography className={classes.paragraphStyle} variant="body1" gutterBottom>{portfolio.aboutme.email}</Typography>
                     <Typography className={classes.paragraphStyle} variant="body1" gutterBottom>{portfolio.contactMe.number}</Typography>
                     <div className={classes.marginTopEight}>
-                    <LinkedIn className={classes.iconStyle} onClick={() => window.open(portfolio.aboutus.linkedInLink, "_blank")} />
-                        <GitHub className={classes.iconStyle} onClick={() => window.open(portfolio.aboutus.githubLink, "_blank")} />
-                        <Instagram className={classes.iconStyle} onClick={() => window.open(portfolio.aboutus.instagramLink, "_blank")} />
-                        <Facebook className={classes.iconStyle} onClick={() => window.open(portfolio.aboutus.facebookLink, "_blank")} />
-                        <Twitter className={classes.iconStyle} onClick={() => window.open(portfolio.aboutus.twitterLink, "_blank")} />
-                        <Email className={classes.iconStyle} onClick={() => window.location.href = `mailto:${portfolio.aboutus.email}`} />
+                    <LinkedIn className={classes.iconStyle} onClick={() => window.open(portfolio.aboutme.linkedInLink, "_blank")} />
+                        <GitHub className={classes.iconStyle} onClick={() => window.open(portfolio.aboutme.githubLink, "_blank")} />
+                        <Instagram className={classes.iconStyle} onClick={() => window.open(portfolio.aboutme.instagramLink, "_blank")} />
+                        <Facebook className={classes.iconStyle} onClick={() => window.open(portfolio.aboutme.facebookLink, "_blank")} />
+                        <Twitter className={classes.iconStyle} onClick={() => window.open(portfolio.aboutme.twitterLink, "_blank")} />
+                        <Email className={classes.iconStyle} onClick={() => window.location.href = `mailto:${portfolio.aboutme.email}`} />
                     </div>
-                    <Button className={classes.marginTopEight} color="primary" variant="contained" size="small" href={`mailto:${portfolio.aboutus.email}`}>Email Me</Button>
+                    <Button className={classes.marginTopEight} color="primary" variant="contained" size="small" href={`mailto:${portfolio.aboutme.email}`}>Email Me</Button>
                 </Grid>
                 <Grid item xs="auto" sm="auto" md={4} lg={4}>
                     <Lottie style={{ margin: 0 }} options={{ loop: true, autoplay: true, animationData: contactMeData, rendererSettings: { preserveAspectRatio: 'xMidYMid slice' } }} width={350} height={350} />

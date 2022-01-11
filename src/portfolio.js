@@ -4,7 +4,7 @@ import gujarat_technological_university_image from './assets/education_images/gu
 import medium_logo from './assets/logo_images/medium_logo.jpg';
 
 export const portfolio = {
-    aboutus: {
+    aboutme: {
         fullName: "Dhrumil Shah",
         email: "shah.dhrumil1998@gmail.com",
         profileImage: dhrumil_about_image,
@@ -14,42 +14,59 @@ export const portfolio = {
         facebookLink: "https://www.facebook.com/dhrumil.shah1998/",
         twitterLink: "https://twitter.com/dhrumil_shah_98",
         heading: "Hi all, I'm Dhrumil",
-        paragraph: "I am a computer science student who loves to develop end-user applications by applying software design and development principles. My area of interest includes Full-stack web development, Mobile development and Cloud Technologies.",
+        paragraph: "I am a computer science student who loves to develop end-user applications by applying software design and development principles.  My area of interest includes Android development, Web development, Full-stack development, Software development, and Cloud technologies. Apart from work, I like to spend my time playing electric keyboard and sketching.",
         resumeLink: "https://drive.google.com/file/d/1HO23rHchtH22TMK1QvM-76ouEeQJMiOs/view?usp=sharing"
     },
-    professionalExp: {
-        company1: "Quixote Automotive Technologies Pvt. Ltd. | Ahmedabad, IN",
-        position1: "Android Developer | Jul 2020 - Feb 2021",
-        project1Work: {
-            line: "Worked on developing an Android application",
-            name1: "Scouto App",
-            name1Link: "https://play.google.com/store/apps/details?id=com.quixote.scouto",
-            name2: "Scouto Website",
-            name2Link: "https://scouto.in/",
+    experiences: [
+        {
+            company: "Dalhousie University | Halifax, CA",
+            position: "Graduate Teaching Assistant for Software Engineering (CSCI 3130) | Jan 2022 - On Going",
+            positionWork: null,
+            positionWorkDesp: [
+                "Prepare tutorial materials on the course topics and customize them to suit the needs of the students.",
+                "Deliver in-person/online tutorials twice a week.",
+                "Perform technical troubleshooting with the students during labs and in MS teams.",
+                "Support the client TA with domain expertise and suggestions.",
+                "Attend the client TA meeting once a week."
+            ]
         },
-        position1Desp: [
-            "Devised workflows, architecture, and user interfaces for the application using tools like Lucidchart, draw.io, and Figma after identifying key features from the users.",
-            "Increased the application development speed by 35% adhering to Google Material Design guidelines and Model-View-View-Model (MVVM) architecture pattern.",
-            "Increased bug detection efficiency and accuracy by 70% by designing comprehensive test cases and performing exhaustive testing of the application.",
-            "Drove the application deployment using the Release on Demand methodology in an incremental fashion adhering to the security considerations agreed upon.",
-            "Enhanced the storage and performance efficiency by 40% after major refactors on assets and core functionalities.",
-            "Optimized and reduced the service layer's code by 30%, resulting in easier code maintenance and fewer bugs in production."
-        ],
-        position2: "Android Intern | Aug 2019 - Feb 2020",
-        project2Work: {
-            line: "Worked on developing Android applications ",
-            name1: "Scouto Vendor",
-            name1Link: "https://play.google.com/store/apps/details?id=com.quixote.scoutosellerbpcl",
-            name2: "WheelIntel",
-            name2Link: "https://play.google.com/store/apps/details?id=com.quixote.scoutosellerbpcl",
+        {
+            company: "Quixote Automotive Technologies Pvt. Ltd. | Ahmedabad, IN",
+            position: "Android Developer | Jul 2020 - Feb 2021",
+            positionWork: {
+                line: "Worked on developing an Android application",
+                name1: "Scouto App",
+                name1Link: "https://play.google.com/store/apps/details?id=com.quixote.scouto",
+                name2: "Scouto Website",
+                name2Link: "https://scouto.in/",
+            },
+            positionWorkDesp: [
+                "Devised workflows, architecture, and user interfaces for the application after eliciting key features from the users.",
+                "Amplified the application development speed by 35% adhering to Google Material Design guidelines and MVVM architecture pattern.",
+                "Accelerated bug detection efficiency by 70% with comprehensive test cases and exhaustive testing of the application.",
+                "Drove the application deployment using Release on Demand methodology in an incremental fashion.",
+                "Enhanced the storage and performance efficiency by 40% after major refactors on assets and core functionalities.",
+                "Optimized and reduced the service layer's code by 30%, resulting in easier code maintenance and fewer bugs in production."
+            ],
         },
-        position2Desp: [
-            "Gained practical experience with Java, Kotlin, Android SDK, Gradle, Third-party Libraries, RESTful APIs, VCS, SonarLint, Firebase, GCP and Google Play Console in less than 2 months.",
-            "Managed project development process for both the applications from requirement specifications to deployment of the application and attained 80% positive feedback.",
-            "Learned Shopify Storefront APIs and Shopify Android Buy SDK and integrated them into the application."
-        ]
-    },
-    education: [
+        {
+            company: "Quixote Automotive Technologies Pvt. Ltd. | Ahmedabad, IN",
+            position: "Android Intern | Aug 2019 - Feb 2020",
+            positionWork: {
+                line: "Worked on developing Android applications ",
+                name1: "Scouto Vendor",
+                name1Link: "https://play.google.com/store/apps/details?id=com.quixote.scoutosellerbpcl",
+                name2: "WheelIntel",
+                name2Link: "https://play.google.com/store/apps/details?id=com.quixote.scoutosellerbpcl",
+            },
+            positionWorkDesp: [
+                "Expanded android skills while developing the application simultaneously to improve comprehension and assessment of large-scale code.",
+                "Engineered the complete project development roadmap for both the applications and attained 80% positive feedback.",
+                "Incorporated marketplace within the app using Shopify Storefront APIs and Mobile Buy SDK leading to user expansion by 43%."
+            ]
+        }
+    ],
+    educations: [
         {
             shortform: "DU",
             name: "Dalhousie University | Halifax, CA",
@@ -76,10 +93,11 @@ export const portfolio = {
         },
     ],
     skills: {
-        technologies: ["Java", "Kotlin", "Flutter", "Dart", "Python", "C", "C++", "Html5", "CSS3", "Bootstrap4", "Material UI", "JavaScript", "React.js", "Express.js", "Embedded JavaScript (EJS)", "Node.js", "JSON"],
-        databases: ["Relational Database (RDB)", "Relational Database Management System (RDBMS)", "SQL", "SQLite", "MySQL", "Non-Relational Database (Non-RDB)", "Non-Relational Database Management System (Non-RDBMS)", "NoSQL", "Firebase Realtime Database", "Firebase Database", "MongoDB", "AWS DynamoDB", "Neo4J"],
-        cloudTechnologies: ["Google Cloud Platform (GCP)", "Amazon Web Services (AWS)", "Firebase Console", "Heroku", "Docker Cloud", "Cloudinary"],
-        industryKnowledge: ["Algorithms", "Data Structures", "Object Oriented Programming (OOP)", "Agile Methodology", "Scrum", "JIRA", "Design Patterns", "Code Refactoring", "Software Development Life Cycle (SDLC)", "SOLID Principles", "Test Driven Development (TDD)", "CI/CD"],
+        technologies: ["Java", "Kotlin", "Python", "Android SDK", "C", "C++", "HTML5", "CSS3", "JavaScript", "XML", "JSON", "Thymeleaf", "Maven", "Gradle"],
+        frameworks: ["Spring Boot", "BootStrap4", "Material UI", "Embedded JavaScript (EJS)", "React.js", "Express.js", "Node.js", "Flutter", "JUnit"],
+        databases: ["MySQL", "MySQL Workbench", "SQLite", "MongoDB", "Neo4J"],
+        cloudTechnologies: ["AWS Console", "Amazon S3", "Amazon DynamoDB", "Amazon Lex", "Amazon IAM", "AWS Lambda", "Amazon SNS", "Amazon SQS", "Amazon Comprehend", "Amazon CloudWatch", "Amazon Cognito", "Google Cloud Console", "Google Cloud Storage", "Google Pub/Sub", "Google Cloud Run", "Google Container Registry", "Google Compute Engine", "Google Data Studio", "Firebase Console", "Firebase Firestore", "Firebase Realtime Database", "Docker Cloud", "Heroku", "Vercel"],
+        industryKnowledge: ["Object-Oriented Programming (OOP)", "Software Development Life Cycle (SDLC)", "Test Driven Development (TDD)", "SOLID Principles", "Database Design Principles", "Agile Methodology", "Scrum", "CI/CD", "Software Design Patterns", "Software Design Principles", "Model-View-Controller (MVC)", "Model-View-ViewModel (MVVM)", "Defensive Programming", "UML", "Algorithms", "Data Structures", "Reverse Engineering", "RESTful Architecture", "Atlassian Jira", "Postman", "IBM Cognos Analytics"],
         versionControl: ["Git", "GitHub", "GitLab", "BitBucket"]
     },
     projects: [

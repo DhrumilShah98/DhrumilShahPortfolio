@@ -18,27 +18,24 @@ export const WorkExperience = () => {
         <React.Fragment>
             <Typography className={classes.workExperienceHeading} variant="h4">Professional Experience</Typography>
             <Divider className={classes.marginTopTwo} />
-            <Typography className={classes.marginTopSixteen} variant="h5" display="block">
-                <span role="img" aria-label="Office Building">🏢</span> <span className={classes.boldText}>{portfolio.professionalExp.company1}</span>
-            </Typography>
-            <Typography className={`${classes.marginLeftEight} ${classes.marginTopEight}`} variant="h6" display="block">
-                <span role="img" aria-label="Developer">👨‍💻</span> <span className={classes.boldText}>{portfolio.professionalExp.position1}</span>
-            </Typography>
-            <Typography className={classes.marginLeftEight} variant="body1">
-                {portfolio.professionalExp.project1Work.line}&nbsp;-&nbsp;<a href={portfolio.professionalExp.project1Work.name1Link} target="_blank" rel="noreferrer">{portfolio.professionalExp.project1Work.name1}</a>&nbsp;|&nbsp;<a href={portfolio.professionalExp.project1Work.name2Link} target="_blank" rel="noreferrer">{portfolio.professionalExp.project1Work.name2}</a>
-            </Typography>
-            <List className={classes.marginLeftEight} dense={true}>
-                {portfolio.professionalExp.position1Desp.map((value, index) => { return generateListItem(index, value); })}
-            </List>
-            <Typography className={`${classes.marginLeftEight} ${classes.marginTopEight}`} variant="h6" display="block">
-                <span role="img" aria-label="Developer">👨‍💻</span> <span className={classes.boldText}>{portfolio.professionalExp.position2}</span>
-            </Typography>
-            <Typography className={classes.marginLeftEight} variant="body1">
-                {portfolio.professionalExp.project2Work.line}&nbsp;-&nbsp;<a href={portfolio.professionalExp.project2Work.name1Link} target="_blank" rel="noreferrer">{portfolio.professionalExp.project2Work.name1}</a>&nbsp;|&nbsp;<a href={portfolio.professionalExp.project2Work.name2Link} target="_blank" rel="noreferrer">{portfolio.professionalExp.project2Work.name2}</a>
-            </Typography>
-            <List className={classes.marginLeftEight} dense={true}>
-                {portfolio.professionalExp.position2Desp.map((value, index) => { return generateListItem(index, value); })}
-            </List>
+            {portfolio.experiences.map((exp, index) => {
+                return (
+                    <React.Fragment>
+                        <Typography className={classes.marginTopSixteen} variant="h5" display="block">
+                            <span role="img" aria-label="Office Building">🏢</span> <span className={classes.boldText}>{exp.company}</span>
+                        </Typography>
+                        <Typography className={`${classes.marginLeftEight} ${classes.marginTopEight}`} variant="h6" display="block">
+                            <span role="img" aria-label="Developer">👨‍💻</span> <span className={classes.boldText}>{exp.position}</span>
+                        </Typography>
+                        {(exp.positionWork) ? <Typography className={classes.marginLeftEight} variant="body1">
+                            {exp.positionWork.line}&nbsp;-&nbsp;<a href={exp.positionWork.name1Link} target="_blank" rel="noreferrer">{exp.positionWork.name1}</a>&nbsp;|&nbsp;<a href={exp.positionWork.name2Link} target="_blank" rel="noreferrer">{exp.positionWork.name2}</a>
+                        </Typography> : null}
+                        <List className={classes.marginLeftEight} dense={true}>
+                            {exp.positionWorkDesp.map((value, index) => { return generateListItem(index, value); })}
+                        </List>
+                    </React.Fragment>
+                );
+            })};
         </React.Fragment>
     );
 };
