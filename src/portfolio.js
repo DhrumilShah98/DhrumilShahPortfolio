@@ -57,7 +57,7 @@ export const portfolio = {
                 name1: "Scouto Vendor",
                 name1Link: "https://play.google.com/store/apps/details?id=com.quixote.scoutosellerbpcl",
                 name2: "WheelIntel",
-                name2Link: "https://play.google.com/store/apps/details?id=com.quixote.scoutosellerbpcl",
+                name2Link: "https://play.google.com/store/apps/details?id=com.quixote.wheelintel",
             },
             positionWorkDesp: [
                 "Expanded android skills while developing the application simultaneously to improve comprehension and assessment of large-scale code.",
