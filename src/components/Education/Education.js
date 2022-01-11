@@ -35,7 +35,7 @@ export const Education = () => {
                             </Card>
                         </Grid>
                     );
-                })};
+                })}
             </Grid>
         </React.Fragment>
     );

@@ -35,7 +35,7 @@ export const WorkExperience = () => {
                         </List>
                     </React.Fragment>
                 );
-            })};
+            })}
         </React.Fragment>
     );
 };

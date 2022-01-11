@@ -31,7 +31,7 @@ export const Blog = () => {
                             </Card>
                         </Grid>
                     );
-                })};
+                })}
             </Grid>
         </React.Fragment>
     );

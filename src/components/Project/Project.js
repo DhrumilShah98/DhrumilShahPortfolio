@@ -79,7 +79,7 @@ export const Project = () => {
                             </Card>
                         </Grid>
                     );
-                })};
+                })}
             </Grid>
         </React.Fragment>
     );

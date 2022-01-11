@@ -26,7 +26,7 @@ export const Certification = () => {
                             </Card>
                         </Grid>
                     );
-                })};
+                })}
             </Grid>
         </React.Fragment>
     );
