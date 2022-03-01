@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Typography, Divider, Chip, Grid } from '@material-ui/core';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { portfolio } from '../../portfolio';
 import { useStyles } from './styles';
 
 export const Skill = () => {
     const classes = useStyles();
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1500
+        });
+    }, []);
 
     const getSkillsStack = (skillType, skills) => {
         return (
@@ -16,7 +24,9 @@ export const Skill = () => {
                     {skills.map((value) => {
                         return (
                             <Grid item>
-                                <Chip className={classes.skillStyle} label={value} color="primary" size="small" />
+                                <div data-aos={"zoom-in"}>
+                                    <Chip className={classes.skillStyle} label={value} color="primary" size="small" />
+                                </div>
                             </Grid>
                         );
                     })}
