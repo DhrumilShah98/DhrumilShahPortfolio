@@ -53,7 +53,7 @@ export const NavigationBar = ({ handleThemeChange }) => {
           </Typography>
           <div className={classes.navItems}>
             {links.map((link) => (
-              <Button color="inherit" onClick={onLinkClick}>
+              <Button key={link.id} color="inherit" onClick={onLinkClick}>
                 <Link key={link.id} underline="none" onClick={() => onLinkClick(link.url)}>
                   <Typography style={{ color: theme.palette.text.primary }}>{link.text}</Typography>
                 </Link>

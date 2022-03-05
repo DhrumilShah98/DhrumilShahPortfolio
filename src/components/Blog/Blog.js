@@ -17,7 +17,7 @@ export const Blog = () => {
         <React.Fragment>
             <Typography className={classes.blogHeading} variant="h4">Blogs</Typography>
             <Divider className={classes.marginTopTwo} />
-            <Grid className={classes.marginTopSixteen} container direction="row" justifyContent="start" alignItem="center" spacing={4}>
+            <Grid className={classes.marginTopSixteen} container direction="row" justifyContent="flex-start" alignItems="center" spacing={4}>
                 {portfolio.blogs.map((blog, index) => {
                     return (
                         <Grid item xs={12} sm={12} md={4} lg={4} key={index}>

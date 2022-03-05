@@ -26,9 +26,9 @@ export const WorkExperience = () => {
         <React.Fragment>
             <Typography className={classes.workExperienceHeading} variant="h4">Professional Experience</Typography>
             <Divider className={classes.marginTopTwo} />
-            {portfolio.experiences.map((exp) => {
+            {portfolio.experiences.map((exp, index) => {
                 return (
-                    <React.Fragment>
+                    <React.Fragment key={index}>
                         <div data-aos={"fade-up"}>
                             <Typography className={classes.marginTopSixteen} variant="h5" display="block">
                                 <span role="img" aria-label="Office Building">🏢</span> <span className={classes.boldText}>{exp.company}</span>

@@ -19,7 +19,7 @@ export const ContactMe = () => {
         <React.Fragment>
             <Typography className={classes.contactMeHeading} variant="h4">Contact Me</Typography>
             <Divider className={classes.marginTopTwo} />
-            <Grid className={classes.marginTopSixteen} container direction="row" justifyContent="center" alignItem="center">
+            <Grid className={classes.marginTopSixteen} container direction="row" justifyContent="center" alignItems="center">
                 <Grid item xs="auto" sm="auto" md={8} lg={8}>
                     <div data-aos={"fade-up"}>
                         <div className={classes.headingStyle}>

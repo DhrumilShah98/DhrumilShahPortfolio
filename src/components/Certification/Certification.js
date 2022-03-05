@@ -16,10 +16,10 @@ export const Certification = () => {
         <React.Fragment>
             <Typography className={classes.certificateHeading} variant="h4">Certifications</Typography>
             <Divider className={classes.marginTopTwo} />
-            <Grid container className={classes.marginTopSixteen} direction="row" justifyContent="start" alignItems="stretch" spacing={2}>
-                {portfolio.certifications.map((certi) => {
+            <Grid container className={classes.marginTopSixteen} direction="row" justifyContent="flex-start" alignItems="stretch" spacing={2}>
+                {portfolio.certifications.map((certi, index) => {
                     return (
-                        <Grid item xs={12} sm={12} md={6} lg={4}>
+                        <Grid key={index} item xs={12} sm={12} md={6} lg={4}>
                             <div data-aos={"flip-left"}>
                                 <Card elevation={12}>
                                     <CardContent className={classes.certificateCard}>

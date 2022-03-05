@@ -18,10 +18,10 @@ export const Skill = () => {
                 <Typography className={classes.marginTopSixteen} variant="h6" display="block">
                     <span role="img" aria-label="Developer">🤹</span > <span className={classes.boldText}>{skillType}</span>
                 </Typography>
-                <Grid container direction="row" justifyContent="start" alignItem="center" spacing={1}>
-                    {skills.map((value) => {
+                <Grid container direction="row" justifyContent="flex-start" alignItems="center" spacing={1}>
+                    {skills.map((value, index) => {
                         return (
-                            <Grid item>
+                            <Grid key={index} item>
                                 <div data-aos={"zoom-in"}>
                                     <Chip className={classes.skillStyle} label={value} color="primary" size="small" />
                                 </div>

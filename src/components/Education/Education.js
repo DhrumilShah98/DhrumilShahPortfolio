@@ -16,7 +16,7 @@ export const Education = () => {
         <React.Fragment>
             <Typography className={classes.boldText} variant="h4">Educational Qualifications</Typography>
             <Divider className={classes.marginTopTwo} />
-            <Grid className={classes.marginTopSixteen} container direction="row" justifyContent="center" alignItem="center" spacing={4}>
+            <Grid className={classes.marginTopSixteen} container direction="row" justifyContent="center" alignItems="center" spacing={4}>
                 {portfolio.educations.map((edu, index) => {
                     return (
                         <Grid item xs={12} sm={12} md={6} lg={6} key={index}>

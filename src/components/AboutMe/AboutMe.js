@@ -18,7 +18,7 @@ export const AboutMe = () => {
     return (
         <React.Fragment>
             <div className={classes.toolbar}></div>
-            <Grid className={classes.marginTopSixteen} container direction="row" justifyContent="center" alignItem="center">
+            <Grid className={classes.marginTopSixteen} container direction="row" justifyContent="center" alignItems="center">
                 <Grid item xs="auto" sm="auto" md={4} lg={4}>
                     <div data-aos={"fade-right"}>
                         <Avatar className={classes.avatarStyle} src={portfolio.aboutme.profileImage} alt={portfolio.aboutme.fullName} />
