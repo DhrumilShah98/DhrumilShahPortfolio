@@ -1,4 +1,4 @@
-import dhrumil_about_image from './assets/dhrumil_images/dhrumil_image_1.jpeg';
+import dhrumil_about_image from './assets/dhrumil_images/dhrumil_image_2.jpg';
 import dalhousie_university_image from './assets/education_images/dalhousie_university.jpg';
 import gujarat_technological_university_image from './assets/education_images/gujarat_technological_university.jpg';
 import medium_logo from './assets/logo_images/medium_logo.jpg';
