@@ -1,16 +1,17 @@
 import { blue } from '@material-ui/core/colors';
 import { makeStyles } from '@material-ui/core/styles';
 
-export const useStyles = makeStyles(() => ({
+export const useStyles = makeStyles((theme) => ({
     cardMediaStyle: {
         maxHeight: 250,
-        height: "80%"
+        height: '80%'
     },
-    avatarBgColor: {
-        backgroundColor: blue["A700"]
+    avatarColor: {
+        backgroundColor: blue['A700'],
+        color: theme.palette.text.primary
     },
     boldText: {
-        fontWeight: "bold"
+        fontWeight: 'bold'
     },
     marginTopTwo: {
         marginTop: 2

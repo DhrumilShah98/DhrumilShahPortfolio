@@ -9,9 +9,7 @@ export const Education = () => {
     const classes = useStyles();
 
     useEffect(() => {
-        AOS.init({
-            duration: 2000
-        });
+        AOS.init({ duration: 1500 });
     }, []);
 
     return (
@@ -25,7 +23,7 @@ export const Education = () => {
                             <div data-aos={(index % 2 === 0) ? "fade-right" : "fade-left"}>
                                 <Card elevation={12}>
                                     <CardHeader
-                                        avatar={<Avatar className={classes.avatarBgColor} aria-label="university initials">{edu.shortform}</Avatar>}
+                                        avatar={<Avatar className={classes.avatarColor} aria-label="university initials">{edu.shortform}</Avatar>}
                                         title={<Typography className={classes.boldText} variant="h6">{edu.name}</Typography>}
                                         subheader={<Typography variant="body1">{edu.years}</Typography>} />
                                     <CardMedia

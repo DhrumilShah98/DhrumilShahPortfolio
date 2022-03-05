@@ -1,11 +1,13 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, Button, IconButton, Drawer, List, ListItem, ListItemText, Divider, Link } from '@material-ui/core';
-import { Menu as MenuIcon } from '@material-ui/icons';
+import { Menu as MenuIcon, Brightness4 as Brightness4Icon, Brightness7 as Brightness7Icon } from '@material-ui/icons';
+import { useTheme } from '@material-ui/core/styles';
 import { links } from './links';
 import { useStyles } from './styles';
 
-export const NavigationBar = () => {
+export const NavigationBar = ({ handleThemeChange }) => {
   const classes = useStyles();
+  const theme = useTheme();
   const [leftDrawerState, setLeftDrawerState] = React.useState(false);
 
   const toggleDrawer = () => {
@@ -33,7 +35,7 @@ export const NavigationBar = () => {
             {links.map((link) => (
               <Link key={link.id} underline="none" onClick={() => onLinkClick(link.url)}>
                 <ListItem button key={link.id}>
-                  <ListItemText primary={link.text} />
+                  <ListItemText primary={link.text} style={{ color: theme.palette.text.primary }} />
                 </ListItem>
                 <Divider />
               </Link>
@@ -41,7 +43,7 @@ export const NavigationBar = () => {
           </List>
         </div>
       </Drawer>
-      <AppBar style={{ backgroundColor: "#FFFFFF" }} position='fixed' elevation={0}>
+      <AppBar style={{ backgroundColor: theme.palette.background.default }} position='fixed' elevation={0}>
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} aria-label="menu" onClick={toggleDrawer}>
             <MenuIcon />
@@ -53,13 +55,16 @@ export const NavigationBar = () => {
             {links.map((link) => (
               <Button color="inherit" onClick={onLinkClick}>
                 <Link key={link.id} underline="none" onClick={() => onLinkClick(link.url)}>
-                  <Typography style={{ color: "#000000" }}>{link.text}</Typography>
+                  <Typography style={{ color: theme.palette.text.primary }}>{link.text}</Typography>
                 </Link>
               </Button>
             ))}
           </div>
+          <IconButton onClick={handleThemeChange}>
+            {theme.palette.type === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
+          </IconButton>
         </Toolbar>
       </AppBar>
-    </React.Fragment >
+    </React.Fragment>
   );
 };

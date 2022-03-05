@@ -9,7 +9,7 @@ export const useStyles = makeStyles((theme) => ({
     },
     navTitle: {
         flexGrow: 1,
-        color: "#000000"
+        color: theme.palette.text.primary
     },
     navDrawer: {
         width: 250
@@ -19,8 +19,8 @@ export const useStyles = makeStyles((theme) => ({
     },
     navItems: {
         textTransform: 'capitalize',
-        [theme.breakpoints.down("md")]: {
-            display: "none",
+        [theme.breakpoints.down('md')]: {
+            display: 'none',
         },
     }
 }));

@@ -9,9 +9,7 @@ export const Skill = () => {
     const classes = useStyles();
 
     useEffect(() => {
-        AOS.init({
-            duration: 1500
-        });
+        AOS.init({ duration: 1500 });
     }, []);
 
     const getSkillsStack = (skillType, skills) => {

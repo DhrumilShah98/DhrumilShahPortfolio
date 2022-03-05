@@ -10,9 +10,7 @@ export const Blog = () => {
     const classes = useStyles();
 
     useEffect(() => {
-        AOS.init({
-            duration: 2000
-        });
+        AOS.init({ duration: 1500 });
     }, []);
 
     return (

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import Lottie from 'react-lottie';
 import { Avatar, Grid, Typography, Button } from '@material-ui/core';
 import { LinkedIn, GitHub, Instagram, Facebook, Twitter, Email } from '@material-ui/icons';
+import Lottie from 'react-lottie';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import * as handWaveAnimationData from '../../assets/lottie_animations/hand_wave.json';
@@ -12,9 +12,7 @@ export const AboutMe = () => {
     const classes = useStyles();
 
     useEffect(() => {
-        AOS.init({
-            duration: 2000
-        });
+        AOS.init({ duration: 1500 });
     }, []);
 
     return (

@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 export const useStyles = makeStyles((theme) => ({
     toolbar: theme.mixins.toolbar,
     aboutMeHeading: {
-        fontWeight: "bold",
+        fontWeight: 'bold',
         marginTop: 16
     },
     avatarStyle: {
@@ -12,9 +12,9 @@ export const useStyles = makeStyles((theme) => ({
         boxShadow: theme.shadows[12]
     },
     headingStyle: {
-        display: "flex",
-        alignItems: "center",
-        flexWrap: "wrap",
+        display: 'flex',
+        alignItems: 'center',
+        flexWrap: 'wrap',
         marginTop: 16
     },
     paragraphStyle: {
@@ -26,7 +26,7 @@ export const useStyles = makeStyles((theme) => ({
         fontSize: 40
     },
     boldText: {
-        fontWeight: "bold"
+        fontWeight: 'bold'
     },
     marginTopTwo: {
         marginTop: 2

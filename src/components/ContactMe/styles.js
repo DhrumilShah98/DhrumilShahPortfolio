@@ -1,14 +1,14 @@
 import { makeStyles } from '@material-ui/core/styles';
 
-export const useStyles = makeStyles((theme) => ({
+export const useStyles = makeStyles(() => ({
     contactMeHeading: {
         marginTop: 32,
-        fontWeight: "bold"
+        fontWeight: 'bold'
     },
     headingStyle: {
-        display: "flex",
-        alignItems: "center",
-        flexWrap: "wrap",
+        display: 'flex',
+        alignItems: 'center',
+        flexWrap: 'wrap',
         marginTop: 16
     },
     paragraphStyle: {
@@ -20,7 +20,7 @@ export const useStyles = makeStyles((theme) => ({
         fontSize: 40
     },
     boldText: {
-        fontWeight: "bold"
+        fontWeight: 'bold'
     },
     marginTopTwo: {
         marginTop: 2

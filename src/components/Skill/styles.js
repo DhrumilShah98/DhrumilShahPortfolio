@@ -3,13 +3,13 @@ import { makeStyles } from '@material-ui/core/styles';
 export const useStyles = makeStyles((theme) => ({
     skillHeading: {
         marginTop: 32,
-        fontWeight: "bold"
+        fontWeight: 'bold'
     },
     skillStyle: {
         boxShadow: theme.shadows[6]
     },
     boldText: {
-        fontWeight: "bold"
+        fontWeight: 'bold'
     },
     marginTopTwo: {
         marginTop: 2,
