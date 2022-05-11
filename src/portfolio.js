@@ -14,20 +14,44 @@ export const portfolio = {
         facebookLink: "https://www.facebook.com/dhrumil.shah1998/",
         twitterLink: "https://twitter.com/dhrumil_shah_98",
         heading: "Hi all, I'm Dhrumil",
-        paragraph: "I am a computer science student who loves to develop end-user applications by applying software design and development principles.  My area of interest includes Android development, Web development, Full-stack development, Software development, and Cloud technologies. Apart from work, I like to spend my time playing electric keyboard and sketching.",
+        paragraph: "I am a computer science student who loves to develop end-user applications by applying software design and development principles.  My area of interest includes Android development, Web development, Full-stack development, Software development, and Cloud technologies. My hobbies are swimming, sketching, gym, and playing electric keyboard.",
         resumeLink: "https://drive.google.com/file/d/1HO23rHchtH22TMK1QvM-76ouEeQJMiOs/view?usp=sharing"
     },
     experiences: [
         {
-            company: "Dalhousie University | Halifax, CA",
-            position: "Graduate Teaching Assistant for Software Engineering (CSCI 3130) | Jan 2022 - On Going",
+            company: "KPMG Canada | Toronto, CA",
+            position: "Software Engineer Co-op | Mar 2022 - Aug 2022 (Present)",
             positionWork: null,
             positionWorkDesp: [
-                "Prepare tutorial materials on the course topics and customize them to suit the needs of the students.",
-                "Deliver in-person/online tutorials twice a week.",
-                "Perform technical troubleshooting with the students during labs and in MS teams.",
-                "Support the client TA with domain expertise and suggestions.",
-                "Attend the client TA meeting once a week."
+                "Performed program comprehension swiftly and developed code in C# to support the existing project based on the .NET framework.",
+                "Implemented centralized logging feature using NLog library to improve bug detection throughout the project.",
+                "Demonstrated the ability to work on multiple projects with languages such as C#, Vue.JS, Node.JS, and SQL-Server."
+            ]
+        },
+        {
+            company: "Dalhousie University | Halifax, CA",
+            position: "Graduate Teaching Assistant for Software Engineering (CSCI 3130) | May 2022 - Aug 2022 (Present)",
+            positionWork: null,
+            positionWorkDesp: [
+                "Professor - Dr Tushar Sharma",
+                "Course - Software Engineering (CSCI3130)",
+                "Prepare customized lecture materials on course topics that align with the course requirements.",
+                "Conduct in-person lectures on course topics.",
+                "Perform technical troubleshooting with students during in-person labs or on MS teams.",
+                "Act as a Client TA to help students develop a project using Software Engineering principles."
+            ]
+        },
+        {
+            company: "Dalhousie University | Halifax, CA",
+            position: "Graduate Teaching Assistant for Software Engineering (CSCI 3130) | Jan 2022 - Apr 2022",
+            positionWork: null,
+            positionWorkDesp: [
+                "Professor - Dr Masud Rahman",
+                "Course - Software Engineering (CSCI3130)",
+                "Prepared customized lecture materials on course topics that align with the course requirements.",
+                "Deliver in-person/online lectures twice a week to over 100 undergraduate students on course topics.",
+                "Performed technical troubleshooting with students during in-person labs or on MS teams, and support all Client TAs with domain expertise and suggestions.",
+                "Tutorial Topics Delivered - Android | Git & GitLab | Firebase | Planning Game | Test-Driven Development (TDD) | Continuous Integration (CI) | Google Maps | Code Quality Analysis Tools (SonarQube & SonarLint) | PayPal Integration | Design Patterns | Chat Integration | Push Notifications"
             ]
         },
         {
