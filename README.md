@@ -7,7 +7,7 @@ To have a local copy of this portfolio website up and running on your local mach
 * [Node](https://nodejs.org/en/) - Download and install Node, which also includes NPM (Node Package Manager).
 * [Visual Studio Code](https://code.visualstudio.com/) - Download and install VS Code or any Editor/IDE(Integrated Development Environment) of your choice.
 
-## Installations
+## Installations 📙
 Steps on how to get this development env running. We'll use Node and NPM.
 * Head to the official Node website to download and install Node, which also includes NPM.
 * Select the "Recommended For Most Users" button and download the current version for your Operating System.
@@ -18,7 +18,7 @@ Steps on how to get this development env running. We'll use Node and NPM.
 * Run "npm install" to install all the dependencies used by this project.
 * Finally, run "npm start" to see it on the localhost.
 
-## Available Scripts
+## Available Scripts 📜
 ### `npm start`
 Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
