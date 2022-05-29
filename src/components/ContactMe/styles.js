@@ -17,7 +17,8 @@ export const useStyles = makeStyles(() => ({
     },
     iconStyle: {
         marginRight: 8,
-        fontSize: 40
+        fontSize: 40,
+        cursor: 'pointer'
     },
     boldText: {
         fontWeight: 'bold'
