@@ -24,7 +24,7 @@ export const portfolio = {
             positionWork: null,
             positionWorkDesp: [
                 "Performed program comprehension swiftly and developed code in C# to support the existing project based on the .NET framework.",
-                "Implemented centralized logging feature using NLog library to improve bug detection throughout the project.",
+                "Implemented centralized logging feature using NLog library that improved bug detection in production by 80%",
                 "Demonstrated the ability to work on multiple projects with languages such as C#, Vue.JS, Node.JS, and SQL-Server."
             ]
         },
@@ -96,11 +96,11 @@ export const portfolio = {
             name: "Dalhousie University | Halifax, CA",
             years: "Jan 2021 - April 2022",
             course: "Master of Applied Computer Science",
-            cgpa: "4.20/4.30",
+            cgpa: "4.07/4.30",
             cpi: null,
             image: dalhousie_university_image,
             imageAlt: "Dalhousie University Logo and Text",
-            transcriptLink: "https://drive.google.com/file/d/185ebLStej0-rUFGZ0LT5pb9d3y6RKW0c/view?usp=sharing",
+            transcriptLink: "https://drive.google.com/file/d/1B-nDlWFzkbo9UoEF1VFU2O5YiEkHgd0W/view?usp=sharing",
             degreeCertiLink: null
         },
         {
