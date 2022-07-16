@@ -1,4 +1,4 @@
-import dhrumil_about_image from './assets/dhrumil_images/dhrumil_image.jpg';
+import dhrumil_about_image from './assets/dhrumil_images/dhrumil_image_2.jpg';
 import dalhousie_university_image from './assets/education_images/dalhousie_university.jpg';
 import gujarat_technological_university_image from './assets/education_images/gujarat_technological_university.jpg';
 import medium_logo from './assets/logo_images/medium_logo.jpg';
@@ -14,8 +14,8 @@ export const portfolio = {
         facebookLink: "https://www.facebook.com/dhrumil.shah1998/",
         twitterLink: "https://twitter.com/dhrumil_shah_98",
         heading: "Hi all, I'm Dhrumil",
-        paragraph: "I am a computer science student who loves to develop end-user applications by applying software design and development principles.  My area of interest includes Android development, Web development, Full-stack development, Software development, and Cloud technologies. My hobbies are swimming, sketching, gym, and playing electric keyboard.",
-        resumeLink: "https://drive.google.com/file/d/1HO23rHchtH22TMK1QvM-76ouEeQJMiOs/view?usp=sharing"
+        paragraph: "I am a computer science student who loves to develop end-user applications by applying software design and development principles. My area of interest includes Android development, Web development, Software development, and Cloud technologies. My hobbies are swimming, sketching, gym, and playing electric keyboard.",
+        resumeLink: "https://drive.google.com/file/d/1cyyqGcpEwVLV6_rMTS5tNyBW7ElCYapM/view?usp=sharing"
     },
     experiences: [
         {
@@ -23,34 +23,36 @@ export const portfolio = {
             position: "Software Engineer Co-op | Mar 2022 - Aug 2022 (Present)",
             positionWork: null,
             positionWorkDesp: [
-                "Performed program comprehension swiftly and developed code in C# to support the existing project based on the .NET framework.",
-                "Implemented centralized logging feature using NLog library that improved bug detection in production by 80%",
-                "Demonstrated the ability to work on multiple projects with languages such as C#, Vue.JS, Node.JS, and SQL-Server."
+                "Implemented a centralized logging feature in the existing .NET project that improved the bug detection by 80%.",
+                "Developed 10+ modules within 2 months solely using Agile(Scrum), Software Design Patterns and Principles.",
+                "Automated a task for fetching Exchange Rates using C# Scripting, Fixer.io API and Azure Functions.",
+                "Contributed to 2 projects simultaneously using C# (.NET), VueJS, NodeJS, SQL Server, and Microsoft Azure."
             ]
         },
         {
             company: "Dalhousie University | Halifax, CA",
-            position: "Graduate Teaching Assistant for Software Engineering (CSCI 3130) | May 2022 - Aug 2022 (Present)",
+            position: "Teaching Assistant | May 2022 - Aug 2022 (Present)",
             positionWork: null,
             positionWorkDesp: [
                 "Professor - Dr Tushar Sharma",
-                "Course - Software Engineering (CSCI3130)",
-                "Prepare customized lecture materials on course topics that align with the course requirements.",
-                "Conduct in-person lectures on course topics.",
-                "Perform technical troubleshooting with students during in-person labs or on MS teams.",
-                "Act as a Client TA to help students develop a project using Software Engineering principles."
+                "Course - Software Engineering (CSCI 3130)",
+                "Prepared customized lecture and lab materials on course topics that align with the course requirements.",
+                "Delivered lectures and labs to a class of 60+ undergraduates on Web Development and Software Engineering.",
+                "Acted as a project manager for 2 teams and guided them on project development using Agile(Scrum) manner. (ReactJS Frontend and Java Sprint Boot Backend)",
+                "Performed technical troubleshooting with students during in-person labs and online on MS Teams.",
+                "Delivered lectures and labs - Web Development | JavaScript | ReactJS | Material UI | React Boostrap | Java | Spring Boot | CI/CD | Git | GitLab."
             ]
         },
         {
             company: "Dalhousie University | Halifax, CA",
-            position: "Graduate Teaching Assistant for Software Engineering (CSCI 3130) | Jan 2022 - Apr 2022",
+            position: "Teaching Assistant | Jan 2022 - Apr 2022",
             positionWork: null,
             positionWorkDesp: [
                 "Professor - Dr Masud Rahman",
-                "Course - Software Engineering (CSCI3130)",
-                "Prepared customized lecture materials on course topics that align with the course requirements.",
-                "Deliver in-person/online lectures twice a week to over 100 undergraduate students on course topics.",
-                "Performed technical troubleshooting with students during in-person labs or on MS teams, and support all Client TAs with domain expertise and suggestions.",
+                "Course - Software Engineering (CSCI 3130)",
+                "Prepared customized lecture materials & 15+ code tutorials on course topics that align with the course requirements.",
+                "Delivered 30+ lectures & labs to a class of over 100+ undergraduates on Android, Web, and Software Engineering.",
+                "Assisted students with technical troubleshooting and client TAs with domain expertise and suggestions.",
                 "Tutorial Topics Delivered - Android | Git & GitLab | Firebase | Planning Game | Test-Driven Development (TDD) | Continuous Integration (CI) | Google Maps | Code Quality Analysis Tools (SonarQube & SonarLint) | PayPal Integration | Design Patterns | Chat Integration | Push Notifications"
             ]
         },

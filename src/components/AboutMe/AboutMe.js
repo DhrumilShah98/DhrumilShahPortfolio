@@ -41,7 +41,7 @@ export const AboutMe = () => {
                         </div>
                         <div className={classes.marginTopEight}>
                             <Button className={classes.marginRightEight} color="primary" variant="contained" size="small" href={`mailto:${portfolio.aboutme.email}`}>Email Me</Button>
-                            {/* <Button color="primary" variant="contained" size="small" href={portfolio.aboutme.resumeLink} target="_blank">View Resume</Button> */}
+                            <Button color="primary" variant="contained" size="small" href={portfolio.aboutme.resumeLink} target="_blank">View Resume</Button>
                         </div>
                     </div>
                 </Grid>
