@@ -36,11 +36,16 @@ export const WorkExperience = () => {
                             <Typography className={`${classes.marginLeftEight} ${classes.marginTopEight}`} variant="h6" display="block">
                                 <span role="img" aria-label="Developer">👨‍💻</span> <span className={classes.boldText}>{exp.position}</span>
                             </Typography>
-                            {(exp.positionWork) ? <Typography className={classes.marginLeftEight} variant="body1">
-                                {exp.positionWork.line}&nbsp;-&nbsp;<a style={{ color: theme.palette.text.primary }} href={exp.positionWork.name1Link} target="_blank" rel="noreferrer">{exp.positionWork.name1}</a>&nbsp;|&nbsp;<a style={{ color: theme.palette.text.primary }} href={exp.positionWork.name2Link} target="_blank" rel="noreferrer">{exp.positionWork.name2}</a>
-                            </Typography> : null}
+                            {(exp.projects.length > 0) ?
+                                <Typography className={classes.marginLeftEight} variant="body1">
+                                    Projects:&nbsp;
+                                    {(exp.projects.map((project, index) => {
+                                        return <span><a style={{ color: theme.palette.text.primary }} href={project.link} target="_blank" rel="noreferrer">{project.name}</a> &nbsp;</span>
+                                    }))}
+                                </Typography> : null
+                            }
                             <List className={classes.marginLeftEight} dense={true}>
-                                {exp.positionWorkDesp.map((value, index) => { return generateListItem(index, value); })}
+                                {exp.work.map((value, index) => { return generateListItem(index, value); })}
                             </List>
                         </div>
                     </React.Fragment>

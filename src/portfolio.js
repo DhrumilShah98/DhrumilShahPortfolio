@@ -14,26 +14,27 @@ export const portfolio = {
         facebookLink: "https://www.facebook.com/dhrumil.shah1998/",
         twitterLink: "https://twitter.com/dhrumil_shah_98",
         heading: "Hi all, I'm Dhrumil",
-        paragraph: "I am a computer science student who loves to develop end-user applications by applying software design and development principles. My area of interest includes Android development, Web development, Software development, and Cloud technologies. My hobbies are swimming, sketching, gym, and playing electric keyboard.",
+        paragraph: "Just a normal coder who loves to develop end-user applications by applying software design and development principles. My area of interest includes Android development, Web development, Software development, and Cloud technologies. I can help you to build your amazing idea. Let's connect and keep in touch",
         resumeLink: "https://drive.google.com/file/d/1cyyqGcpEwVLV6_rMTS5tNyBW7ElCYapM/view?usp=sharing"
     },
     experiences: [
         {
             company: "KPMG Canada | Toronto, CA",
             position: "Software Engineer Co-op | Mar 2022 - Aug 2022 (Present)",
-            positionWork: null,
-            positionWorkDesp: [
+            projects: [],
+            work: [
                 "Implemented a centralized logging feature in the existing .NET project that improved the bug detection by 80%.",
                 "Developed 10+ modules within 2 months solely using Agile(Scrum), Software Design Patterns and Principles.",
                 "Automated a task for fetching Exchange Rates using C# Scripting, Fixer.io API and Azure Functions.",
-                "Contributed to 2 projects simultaneously using C# (.NET), VueJS, NodeJS, SQL Server, and Microsoft Azure."
+                "Automated Role-Based Access Control (RBAC) to ensure security and a deployment-free workflow using VueJS, NodeJS, and SQL Server",
+                "Contributed to 3 projects simultaneously using C# (.NET), VueJS, NodeJS, SQL Server, and Microsoft Azure."
             ]
         },
         {
             company: "Dalhousie University | Halifax, CA",
             position: "Teaching Assistant | May 2022 - Aug 2022 (Present)",
-            positionWork: null,
-            positionWorkDesp: [
+            projects: [],
+            work: [
                 "Professor - Dr Tushar Sharma",
                 "Course - Software Engineering (CSCI 3130)",
                 "Prepared customized lecture and lab materials on course topics that align with the course requirements.",
@@ -46,8 +47,8 @@ export const portfolio = {
         {
             company: "Dalhousie University | Halifax, CA",
             position: "Teaching Assistant | Jan 2022 - Apr 2022",
-            positionWork: null,
-            positionWorkDesp: [
+            projects: [],
+            work: [
                 "Professor - Dr Masud Rahman",
                 "Course - Software Engineering (CSCI 3130)",
                 "Prepared customized lecture materials & 15+ code tutorials on course topics that align with the course requirements.",
@@ -59,14 +60,17 @@ export const portfolio = {
         {
             company: "Quixote Automotive Technologies Pvt. Ltd. | Ahmedabad, IN",
             position: "Android Developer | Jul 2020 - Feb 2021",
-            positionWork: {
-                line: "Worked on developing an Android application",
-                name1: "Scouto App",
-                name1Link: "https://play.google.com/store/apps/details?id=com.quixote.scouto",
-                name2: "Scouto Website",
-                name2Link: "https://scouto.in/",
-            },
-            positionWorkDesp: [
+            projects: [
+                {
+                    name: "Scouto App",
+                    link: "https://play.google.com/store/apps/details?id=com.quixote.scouto"
+                },
+                {
+                    name: "Scouto Website",
+                    link: "https://scouto.in/"
+                }
+            ],
+            work: [
                 "Devised workflows, architecture, and user interfaces for the application after eliciting key features from the users.",
                 "Amplified the application development speed by 35% adhering to Google Material Design guidelines and MVVM architecture pattern.",
                 "Accelerated bug detection efficiency by 70% with comprehensive test cases and exhaustive testing of the application.",
@@ -78,14 +82,17 @@ export const portfolio = {
         {
             company: "Quixote Automotive Technologies Pvt. Ltd. | Ahmedabad, IN",
             position: "Android Intern | Aug 2019 - Feb 2020",
-            positionWork: {
-                line: "Worked on developing Android applications ",
-                name1: "Scouto Vendor",
-                name1Link: "https://play.google.com/store/apps/details?id=com.quixote.scoutosellerbpcl",
-                name2: "WheelIntel",
-                name2Link: "https://play.google.com/store/apps/details?id=com.quixote.wheelintel",
-            },
-            positionWorkDesp: [
+            projects: [
+                {
+                    name: "Scouto Vendor",
+                    link: "https://play.google.com/store/apps/details?id=com.quixote.scoutosellerbpcl"
+                },
+                {
+                    name: "WheelIntel",
+                    link: "https://play.google.com/store/apps/details?id=com.quixote.wheelintel"
+                }
+            ],
+            work: [
                 "Expanded android skills while developing the application simultaneously to improve comprehension and assessment of large-scale code.",
                 "Engineered the complete project development roadmap for both the applications and attained 80% positive feedback.",
                 "Incorporated marketplace within the app using Shopify Storefront APIs and Mobile Buy SDK leading to user expansion by 43%."
@@ -145,7 +152,7 @@ export const portfolio = {
             projectDuration: "Sep 2021 - Dec 2021",
             projectAbout: "TravelMemories is a web application built using Software as a Service (SaaS) delivery model that helps its users to plan trips for their leisure time or business easily. The application deals with multiple travel destinations and manages the reviews of each of the destinations with the help of comments and ratings. User Authentication, Posts Management, Security, and Performance are the key features of the web application.",
             projectGitHubLink: "https://github.com/DhrumilShah98/Dalhousie_University_CSCI5409_ACC#final-group-project",
-            projectDeploymentLink: "https://my-travel-memories.de.r.appspot.com/"
+            projectDeploymentLink: null
         },
         {
             projectName: "Blood Book",
@@ -219,6 +226,13 @@ export const portfolio = {
         }
     ],
     certifications: [
+        {
+            name: "ES6 JavaScript: The Complete Developer's Guide",
+            issuer: "Udemy",
+            issueDate: "Jun 9, 2022",
+            credentialId: "UC-5b106bad-43a6-47d5-a8cd-3806e525acfb",
+            credentialLink: "https://www.udemy.com/certificate/UC-5b106bad-43a6-47d5-a8cd-3806e525acfb/",
+        },
         {
             name: "AWS Educate Introduction to Cloud 101",
             issuer: "Amazon Web Services (AWS)",

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { AppBar, Toolbar, Typography, Button, IconButton, Drawer, List, ListItem, ListItemText, Divider, Link } from '@material-ui/core';
 import { Menu as MenuIcon, Brightness4 as Brightness4Icon, Brightness7 as Brightness7Icon } from '@material-ui/icons';
 import { useTheme } from '@material-ui/core/styles';
@@ -8,7 +8,7 @@ import { useStyles } from './styles';
 export const NavigationBar = ({ handleThemeChange }) => {
   const classes = useStyles();
   const theme = useTheme();
-  const [leftDrawerState, setLeftDrawerState] = React.useState(false);
+  const [leftDrawerState, setLeftDrawerState] = useState(false);
 
   const toggleDrawer = () => {
     setLeftDrawerState(!leftDrawerState);

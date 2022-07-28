@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Typography, Divider, Grid, Card, CardContent, CardActions, Collapse, IconButton, Chip, styled } from '@material-ui/core';
 import { GitHub, ExpandMore, Link } from '@material-ui/icons'
 import AOS from 'aos';
@@ -16,7 +16,7 @@ const ExpandMoreFunc = styled((props) => {
 }));
 
 export const Project = () => {
-    const [expanded, setExpanded] = React.useState(false);
+    const [expanded, setExpanded] = useState(-1);
     const classes = useStyles();
 
     useEffect(() => {
@@ -40,8 +40,8 @@ export const Project = () => {
         );
     };
 
-    const handleExpandClick = () => {
-        setExpanded(!expanded);
+    const handleExpandClick = (index) => {
+        (index === expanded) ? setExpanded(-1) : setExpanded(index);
     };
 
     return (
@@ -67,14 +67,13 @@ export const Project = () => {
                                                 <Link onClick={() => window.open(project.projectDeploymentLink, "_blank")} />
                                             </IconButton> : null}
                                         <ExpandMoreFunc
-                                            expand={expanded}
-                                            onClick={handleExpandClick}
-                                            aria-expanded={expanded}
+                                            expand={(index === expanded)}
+                                            onClick={() => handleExpandClick(index)}
                                             aria-label="Show More" >
                                             <ExpandMore />
                                         </ExpandMoreFunc>
                                     </CardActions>
-                                    <Collapse in={expanded} timeout="auto" unmountOnExit>
+                                    <Collapse in={(index === expanded)} timeout="auto" unmountOnExit>
                                         <CardContent>
                                             <Typography variant="body1"><span className={classes.boldText}>About</span></Typography>
                                             <Typography variant="body1">{project.projectAbout}</Typography>
