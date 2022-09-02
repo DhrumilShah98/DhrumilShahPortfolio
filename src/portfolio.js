@@ -20,33 +20,33 @@ export const portfolio = {
     experiences: [
         {
             company: "KPMG Canada | Toronto, CA",
-            position: "Software Engineer Co-op | Mar 2022 - Aug 2022 (Present)",
+            position: "Software Engineer Co-op | Mar 2022 - Aug 2022",
             projects: [],
             work: [
                 "Implemented a centralized logging feature in the existing .NET project that improved the bug detection by 80%.",
                 "Developed 10+ modules within 2 months solely using Agile(Scrum), Software Design Patterns and Principles.",
-                "Automated a task for fetching Exchange Rates using C# Scripting, Fixer.io API and Azure Functions.",
-                "Automated Role-Based Access Control (RBAC) to ensure security and a deployment-free workflow using VueJS, NodeJS, and SQL Server",
-                "Contributed to 3 projects simultaneously using C# (.NET), VueJS, NodeJS, SQL Server, and Microsoft Azure."
+                "Automated a task for fetching Exchange Rates using Python/C# Scripting, Fixer.io API and Azure Functions.",
+                "Automated Role-Based Access Control (RBAC) to ensure security and a deployment-free workflow using Vue.js, Node.js, and SQL Server",
+                "Contributed to 3 projects simultaneously using C# (.NET), Vue.js, Node.js, SQL Server, and Microsoft Azure."
             ]
         },
         {
             company: "Dalhousie University | Halifax, CA",
-            position: "Teaching Assistant | May 2022 - Aug 2022 (Present)",
+            position: "Teaching Assistant (Tutorial TA & Client TA) | May 2022 - Aug 2022",
             projects: [],
             work: [
                 "Professor - Dr Tushar Sharma",
                 "Course - Software Engineering (CSCI 3130)",
                 "Prepared customized lecture and lab materials on course topics that align with the course requirements.",
                 "Delivered lectures and labs to a class of 60+ undergraduates on Web Development and Software Engineering.",
-                "Acted as a project manager for 2 teams and guided them on project development using Agile(Scrum) manner. (ReactJS Frontend and Java Sprint Boot Backend)",
+                "Acted as a project manager for 2 teams and guided them on project development using Agile(Scrum) manner. (React.js Frontend and Java Sprint Boot Backend)",
                 "Performed technical troubleshooting with students during in-person labs and online on MS Teams.",
-                "Delivered lectures and labs - Web Development | JavaScript | ReactJS | Material UI | React Boostrap | Java | Spring Boot | CI/CD | Git | GitLab."
+                "Delivered lectures and labs - Web Development | JavaScript | React.js | Material UI | React Boostrap | Java | Spring Boot | CI/CD | Git | GitLab."
             ]
         },
         {
             company: "Dalhousie University | Halifax, CA",
-            position: "Teaching Assistant | Jan 2022 - Apr 2022",
+            position: "Teaching Assistant (Tutorial TA) | Jan 2022 - Apr 2022",
             projects: [],
             work: [
                 "Professor - Dr Masud Rahman",
