@@ -227,6 +227,13 @@ export const portfolio = {
     ],
     certifications: [
         {
+            name: "CSS - The Complete Guide 2022",
+            issuer: "Udemy",
+            issueDate: "Sep 2, 2022",
+            credentialId: "UC-ea37c1e2-e40d-4ee5-b4f7-f51aee1f1fef",
+            credentialLink: "https://www.udemy.com/certificate/UC-ea37c1e2-e40d-4ee5-b4f7-f51aee1f1fef/",
+        },
+        {
             name: "ES6 JavaScript: The Complete Developer's Guide",
             issuer: "Udemy",
             issueDate: "Jun 9, 2022",
