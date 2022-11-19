@@ -19,6 +19,17 @@ export const portfolio = {
     },
     experiences: [
         {
+            company: "SOTI | Mississauga, CA",
+            position: "Android Developer | Sep 2022 - Current",
+            projects: [
+                {
+                    name: "MobiControl Android Enterprise",
+                    link: "https://play.google.com/store/apps/details?id=net.soti.mobicontrol.androidwork"
+                }
+            ],
+            work: []
+        },
+        {
             company: "KPMG Canada | Toronto, CA",
             position: "Software Engineer Co-op | Mar 2022 - Aug 2022",
             projects: [],
