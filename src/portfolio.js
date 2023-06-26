@@ -27,7 +27,12 @@ export const portfolio = {
                     link: "https://play.google.com/store/apps/details?id=net.soti.mobicontrol.androidwork"
                 }
             ],
-            work: []
+            work: [
+                "Develop and maintain Android agent codebase software for the MobiControl MDM solution.",
+                "Support customers by resolving executive escalation issues to ensure smooth business operations.",
+                "Integrate Azure Single Sign-On in Shared device mode for hassle-free authentication.",
+                "Migrate the codebase from Java to Kotlin to improve stability, productivity and maintainability."
+            ]
         },
         {
             company: "KPMG Canada | Toronto, CA",
