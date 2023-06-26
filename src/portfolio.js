@@ -142,12 +142,12 @@ export const portfolio = {
         },
     ],
     skills: {
-        technologies: ["Java", "Kotlin", "Python", "Android SDK", "C", "C++", "HTML5", "CSS3", "JavaScript", "XML", "JSON", "Thymeleaf", "Maven", "Gradle"],
-        frameworks: ["Spring Boot", "BootStrap4", "Material UI", "Embedded JavaScript (EJS)", "React.js", "Express.js", "Node.js", "Flutter", "JUnit"],
-        databases: ["MySQL", "MySQL Workbench", "SQLite", "MongoDB", "Neo4J"],
-        cloudTechnologies: ["AWS Console", "Amazon S3", "Amazon DynamoDB", "Amazon Lex", "Amazon IAM", "AWS Lambda", "Amazon SNS", "Amazon SQS", "Amazon Comprehend", "Amazon CloudWatch", "Amazon Cognito", "Google Cloud Console", "Google Cloud Storage", "Google Pub/Sub", "Google Cloud Run", "Google Container Registry", "Google Compute Engine", "Google Data Studio", "Firebase Console", "Firebase Firestore", "Firebase Realtime Database", "Docker Cloud", "Heroku", "Vercel"],
-        industryKnowledge: ["Object-Oriented Programming (OOP)", "Software Development Life Cycle (SDLC)", "Test Driven Development (TDD)", "SOLID Principles", "Database Design Principles", "Agile Methodology", "Scrum", "CI/CD", "Software Design Patterns", "Software Design Principles", "Model-View-Controller (MVC)", "Model-View-ViewModel (MVVM)", "Defensive Programming", "UML", "Algorithms", "Data Structures", "Reverse Engineering", "RESTful Architecture", "Atlassian Jira", "Postman", "IBM Cognos Analytics"],
-        versionControl: ["Git", "GitHub", "GitLab", "BitBucket"]
+        technologies: ["Kotlin", "Java", "HTML", "CSS", "JavaScript", "XML", "JSON", "Maven", "Gradle", "Android SDK", "Jenkins"],
+        frameworks: ["Material UI", "BootStrap", "Embedded JavaScript (EJS)", "React.js", "Express.js", "Node.js", "Flutter"],
+        databases: ["SQL", "SQLite", "MySQL", "NoSQL", "Firebase Database", "MongoDB"],
+        cloudTechnologies: ["Google Cloud Platform (GCP)", "Amazon Web Services (AWS)", "Firebase Console"],
+        industryKnowledge: ["Algorithms", "Data Structures", "Object-Oriented Programming (OOP)", "Design Patterns", "Software Development Life Cycle (SDLC)", "Code Refactoring", "SOLID Principles", "Test-Driven Development (TDD)", "CI/CD", "Agile Methodology", "Scrum", "JIRA"],
+        versionControl: ["Git", "GitHub", "GitLab", "BitBucket", "Azure DevOps", "Gerrit"]
     },
     projects: [
         {
