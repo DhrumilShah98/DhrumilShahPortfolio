@@ -19,18 +19,21 @@ export const portfolio = {
     experiences: [
         {
             company: "SOTI | Mississauga, CA",
-            position: "Android Developer | Sep 2022 - Current",
+            position: "Software Developer 1 (Android) | Sep 2022 - Current",
             projects: [
                 {
-                    name: "MobiControl Android Enterprise",
+                    name: "SOTI MobiControl",
                     link: "https://play.google.com/store/apps/details?id=net.soti.mobicontrol.androidwork"
                 }
             ],
             work: [
-                "Develop and maintain Android agent codebase software for the MobiControl MDM solution.",
-                "Support customers by resolving executive escalation issues to ensure smooth business operations.",
-                "Integrate Azure Single Sign-On in Shared device mode for hassle-free authentication.",
-                "Migrate the codebase from Java to Kotlin to improve stability, productivity and maintainability."
+                "Develop and maintain the SOTI MobiControl Android application, focusing on optimal performance and user satisfaction",
+                "Proactively tackle executive escalation issues, elevating the customer experience and facilitating seamless business operations",
+                "Integrate Azure SSO in Shared device mode for hassle-free authentication to enhance convenience and productivity",
+                "Migrate the codebase from Java to Kotlin to improve stability, productivity and maintainability",
+                "Add OS 9 and above emulators for Android Enterprise Device Owner (AEDO), expanding BDDs and non-BDDs coverage by fixing them first",
+                "Leading a team of 8+ individuals (QAs and Devs) in automating Android Release Sanity Testing to reduce manual testing time from 6 to 3 days",
+                "Conducting comprehensive training sessions to onboard QA professionals in Gherkin-based feature file writing, Android Studio development, Git and Gerrit use"
             ]
         },
         {
@@ -38,11 +41,11 @@ export const portfolio = {
             position: "Software Engineer Co-op | Mar 2022 - Aug 2022",
             projects: [],
             work: [
-                "Implemented a centralized logging feature in the existing .NET project that improved the bug detection by 80%.",
-                "Developed 10+ modules within 2 months solely using Agile(Scrum), Software Design Patterns and Principles.",
-                "Automated a task for fetching Exchange Rates using Python/C# Scripting, Fixer.io API and Azure Functions.",
-                "Automated Role-Based Access Control (RBAC) to ensure security and a deployment-free workflow using Vue.js, Node.js, and SQL Server",
-                "Contributed to 3 projects simultaneously using C# (.NET), Vue.js, Node.js, SQL Server, and Microsoft Azure."
+                "Implemented a centralized logging feature in the existing .NET project that improved bug detection by 80%",
+                "Developed 10+ modules within 2 months solely using Agile(Scrum), Software Design Patterns and Principles",
+                "Automated a task for fetching Exchange Rates using C# Scripting, Fixer.io API and Azure Functions",
+                "Automated Role-Based Access Control (RBAC) to ensure security and a deployment-free workflow using VueJS, NodeJS, and SQL Server",
+                "Contributed to 3 projects simultaneously using C# (.NET), VueJS, NodeJS, SQL Server, and Microsoft Azure"
             ]
         },
         {
@@ -52,11 +55,11 @@ export const portfolio = {
             work: [
                 "Professor - Dr Tushar Sharma",
                 "Course - Software Engineering (CSCI 3130)",
-                "Prepared customized lecture and lab materials on course topics that align with the course requirements.",
-                "Delivered lectures and labs to a class of 60+ undergraduates on Web Development and Software Engineering.",
-                "Acted as a project manager for 2 teams and guided them on project development using Agile(Scrum) manner. (React.js Frontend and Java Sprint Boot Backend)",
-                "Performed technical troubleshooting with students during in-person labs and online on MS Teams.",
-                "Delivered lectures and labs - Web Development | JavaScript | React.js | Material UI | React Boostrap | Java | Spring Boot | CI/CD | Git | GitLab."
+                "Prepared customized lectures and lab materials on course topics that align with the course requirements",
+                "Delivered lectures and labs to a class of 60+ undergraduates on Web Development and Software Engineering",
+                "Acted as a project manager for 2 teams to guide them on web application development throughout the term (ReactJS & Spring Boot)",
+                "Performed technical troubleshooting with students during in-person labs and online",
+                "Delivered lectures and labs - Web Development | JavaScript | ReactJS | Material UI | React Bootstrap | Java | Spring Boot | CI/CD | Git | GitLab"
             ]
         },
         {
@@ -66,10 +69,10 @@ export const portfolio = {
             work: [
                 "Professor - Dr Masud Rahman",
                 "Course - Software Engineering (CSCI 3130)",
-                "Prepared customized lecture materials & 15+ code tutorials on course topics that align with the course requirements.",
-                "Delivered 30+ lectures & labs to a class of over 100+ undergraduates on Android, Web, and Software Engineering.",
-                "Assisted students with technical troubleshooting and client TAs with domain expertise and suggestions.",
-                "Tutorial Topics Delivered - Android | Git & GitLab | Firebase | Planning Game | Test-Driven Development (TDD) | Continuous Integration (CI) | Google Maps | Code Quality Analysis Tools (SonarQube & SonarLint) | PayPal Integration | Design Patterns | Chat Integration | Push Notifications"
+                "Prepared customized lectures and lab materials on course topics that align with the course requirements",
+                "Delivered 30+ lectures and labs to a class of 100+ undergraduates on Android Development and Software Engineering",
+                "Assisted students with technical troubleshooting and client TAs with domain expertise and suggestions",
+                "Tutorial Topics Delivered - Android | Git | GitLab | Firebase | Planning Game | Test-Driven Development (TDD) | Continuous Integration (CI) | Google Maps | Code Quality Analysis Tools (SonarQube & SonarLint) | PayPal Integration | Design Patterns | Chat Integration | Push Notifications"
             ]
         },
         {
@@ -86,12 +89,12 @@ export const portfolio = {
                 }
             ],
             work: [
-                "Devised workflows, architecture, and user interfaces for the application after eliciting key features from the users.",
-                "Amplified the application development speed by 35% adhering to Google Material Design guidelines and MVVM architecture pattern.",
-                "Accelerated bug detection efficiency by 70% with comprehensive test cases and exhaustive testing of the application.",
-                "Drove the application deployment using Release on Demand methodology in an incremental fashion.",
-                "Enhanced the storage and performance efficiency by 40% after major refactors on assets and core functionalities.",
-                "Optimized and reduced the service layer's code by 30%, resulting in easier code maintenance and fewer bugs in production."
+                "Devised workflows, architecture, and user interfaces for the application after eliciting key features from the users",
+                "Amplified the application development speed by 35% adhering to Google Material Design guidelines and MVVM architecture pattern",
+                "Accelerated bug detection efficiency by 70% with comprehensive test cases and exhaustive testing of the application",
+                "Drove the application deployment using Release on Demand methodology in an incremental fashion",
+                "Enhanced the storage and performance efficiency by 40% after major refactors on assets and core functionalities",
+                "Optimized and reduced the service layer's code by 30%, resulting in easier code maintenance and fewer bugs in production"
             ],
         },
         {
@@ -108,9 +111,9 @@ export const portfolio = {
                 }
             ],
             work: [
-                "Expanded android skills while developing the application simultaneously to improve comprehension and assessment of large-scale code.",
-                "Engineered the complete project development roadmap for both the applications and attained 80% positive feedback.",
-                "Incorporated marketplace within the app using Shopify Storefront APIs and Mobile Buy SDK leading to user expansion by 43%."
+                "Expanded android skills while developing the application simultaneously to improve comprehension and assessment of large-scale code",
+                "Engineered the complete project development roadmap for both the applications and attained 80% positive feedback",
+                "Incorporated marketplace within the app using Shopify Storefront APIs and Mobile Buy SDK leading to user expansion by 43%"
             ]
         }
     ],
