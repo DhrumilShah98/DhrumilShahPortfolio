@@ -144,12 +144,12 @@ export const portfolio = {
         },
     ],
     skills: {
-        technologies: ["Kotlin", "Java", "HTML", "CSS", "JavaScript", "XML", "JSON", "Maven", "Gradle", "Android SDK", "Jenkins"],
-        frameworks: ["Material UI", "BootStrap", "Embedded JavaScript (EJS)", "React.js", "Express.js", "Node.js", "Flutter"],
+        technologies: ["Kotlin", "Java", "HTML", "CSS", "JavaScript"],
+        tools: ["Gradle", "Jenkins", "Android SDK"],
+        frameworks: ["Material UI", "BootStrap", "Embedded JavaScript (EJS)", "React.js", "Express.js", "Node.js"],
         databases: ["SQL", "SQLite", "MySQL", "NoSQL", "Firebase Database", "MongoDB"],
-        cloudTechnologies: ["Google Cloud Platform (GCP)", "Amazon Web Services (AWS)", "Firebase Console"],
-        industryKnowledge: ["Algorithms", "Data Structures", "Object-Oriented Programming (OOP)", "Design Patterns", "Software Development Life Cycle (SDLC)", "Code Refactoring", "SOLID Principles", "Test-Driven Development (TDD)", "CI/CD", "Agile Methodology", "Scrum", "JIRA"],
-        versionControl: ["Git", "GitHub", "GitLab", "BitBucket", "Azure DevOps", "Gerrit"]
+        industryKnowledge: ["Agile Methodologies", "Algorithms", "Behavior-Driven Development (BDD)", "Code Refactoring", "Continuous Integration and Continuous Delivery (CI/CD)", "Data Structures", "Design Patterns", "Object-Oriented Programming (OOP)", "Software Development Life Cycle (SDLC)", "SOLID Principles", "Test-Driven Development (TDD)"],
+        versionControl: ["Git", "GitHub", "Gerrit", "GitLab", "BitBucket", "Azure DevOps"]
     },
     projects: [
         {

@@ -39,9 +39,9 @@ export const Skill = () => {
             <Divider className={classes.marginTopTwo} />
             <div className={classes.marginTopSixteen}>
                 {getSkillsStack("Technologies", portfolio.skills.technologies)}
+                {getSkillsStack("Tools", portfolio.skills.tools)}
                 {getSkillsStack("Frameworks", portfolio.skills.frameworks)}
                 {getSkillsStack("Databases", portfolio.skills.databases)}
-                {getSkillsStack("Cloud Technologies", portfolio.skills.cloudTechnologies)}
                 {getSkillsStack("Industry Knowledge", portfolio.skills.industryKnowledge)}
                 {getSkillsStack("Version Control", portfolio.skills.versionControl)}
             </div>
