@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Typography, Divider, Grid, Button } from '@material-ui/core';
+import { Typography, Divider, Grid } from '@material-ui/core';
 import { LinkedIn, GitHub, Instagram, Facebook, Twitter, Email } from '@material-ui/icons';
 import Lottie from 'react-lottie';
 import AOS from 'aos';
@@ -25,8 +25,6 @@ export const ContactMe = () => {
                         <div className={classes.headingStyle}>
                             <Typography className={classes.boldText} variant="h5" gutterBottom>{portfolio.contactMe.line}</Typography>
                         </div>
-                        <Typography className={classes.paragraphStyle} variant="body1" gutterBottom>{portfolio.aboutme.email}</Typography>
-                        <Typography className={classes.paragraphStyle} variant="body1" gutterBottom>{portfolio.contactMe.number}</Typography>
                         <div className={classes.marginTopEight}>
                             <LinkedIn className={classes.iconStyle} onClick={() => window.open(portfolio.aboutme.linkedInLink, "_blank")} />
                             <GitHub className={classes.iconStyle} onClick={() => window.open(portfolio.aboutme.githubLink, "_blank")} />
@@ -35,7 +33,6 @@ export const ContactMe = () => {
                             <Twitter className={classes.iconStyle} onClick={() => window.open(portfolio.aboutme.twitterLink, "_blank")} />
                             <Email className={classes.iconStyle} onClick={() => window.location.href = `mailto:${portfolio.aboutme.email}`} />
                         </div>
-                        <Button className={classes.marginTopEight} color="primary" variant="contained" size="small" href={`mailto:${portfolio.aboutme.email}`}>Email Me</Button>
                     </div>
                 </Grid>
                 <Grid item xs="auto" sm="auto" md={4} lg={4}>

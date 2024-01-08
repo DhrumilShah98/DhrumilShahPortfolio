@@ -379,7 +379,6 @@ export const portfolio = {
         },
     ],
     contactMe: {
-        line: "Discuss a project or just want to say Hi? I am open for a conversation.",
-        number: "+1 (902) 989 7865"
+        line: "Discuss a project or just want to say Hi? I am open for a conversation."
     }
 };
