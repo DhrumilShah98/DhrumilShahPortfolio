@@ -14,8 +14,7 @@ export const portfolio = {
         facebookLink: "https://www.facebook.com/dhrumil.shah1998/",
         twitterLink: "https://twitter.com/dhrumil_shah_98",
         heading: "Hi all, I'm Dhrumil",
-        paragraph: "Just a normal coder who loves to develop end-user applications by applying software design and development principles. My area of interest includes Android development, Web development, Software development, and Cloud technologies. I can help you to build your amazing idea. Let's connect and keep in touch",
-        resumeLink: "https://drive.google.com/file/d/1cyyqGcpEwVLV6_rMTS5tNyBW7ElCYapM/view?usp=sharing"
+        paragraph: "Just a normal guy who loves to develop end-user applications. My area of interest includes Android development and Full-stack Web developement. I can help you build your amazing idea. Let's connect and keep in touch",
     },
     experiences: [
         {

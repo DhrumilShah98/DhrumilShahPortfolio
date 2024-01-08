@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Avatar, Grid, Typography, Button } from '@material-ui/core';
+import { Avatar, Grid, Typography } from '@material-ui/core';
 import { LinkedIn, GitHub, Instagram, Facebook, Twitter, Email } from '@material-ui/icons';
 import Lottie from 'react-lottie';
 import AOS from 'aos';
@@ -38,10 +38,6 @@ export const AboutMe = () => {
                             <Facebook className={classes.iconStyle} onClick={() => window.open(portfolio.aboutme.facebookLink, "_blank")} />
                             <Twitter className={classes.iconStyle} onClick={() => window.open(portfolio.aboutme.twitterLink, "_blank")} />
                             <Email className={classes.iconStyle} onClick={() => window.location.href = `mailto:${portfolio.aboutme.email}`} />
-                        </div>
-                        <div className={classes.marginTopEight}>
-                            <Button className={classes.marginRightEight} color="primary" variant="contained" size="small" href={`mailto:${portfolio.aboutme.email}`}>Email Me</Button>
-                            <Button color="primary" variant="contained" size="small" href={portfolio.aboutme.resumeLink} target="_blank">View Resume</Button>
                         </div>
                     </div>
                 </Grid>
