@@ -3,6 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 export const useStyles = makeStyles((theme) => ({
     menuButton: {
         marginRight: theme.spacing(2),
+        display: 'none',
+        [theme.breakpoints.down('md')]: {
+            display: 'block',
+        }
     },
     navTitle: {
         flexGrow: 1,
